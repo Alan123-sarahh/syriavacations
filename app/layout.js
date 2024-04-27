@@ -1,14 +1,15 @@
 import { Nunito } from "next/font/google";
 import "./globals.css";
-import Footer from "./components/Footer.jsx/Footer";
 import Navbar from "./components/Navbar/Navbar";
 import OriginTracker from "./components/OriginTracker";
+import Footer from "./components/Footer";
 
 const font = Nunito({ subsets: ["latin"], display: "swap" });
 
 export const metadata = {
-  title: "Syria Vacations",
-  description: "syria vacations website",
+  title: "Syria Vacation Rentals & Airbnb",
+  description:
+    "Looking for unique places to stay in Syria? Explore a diverse range of short-term rentals & Airbnbs across Syria. Find the perfect home for your Syrian adventure - book now!",
 };
 
 export default function RootLayout({ children }) {

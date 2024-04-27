@@ -19,7 +19,7 @@ export default function ListingHead({
       <div className="md:hidden px-5 text-lg font-light text-neutral-500">
         {cardDescription}
       </div>
-      <Gallery images={imageSrc} className="" />
+      <Gallery images={imageSrc} />
     </>
   );
 }

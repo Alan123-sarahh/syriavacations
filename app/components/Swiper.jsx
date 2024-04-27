@@ -77,7 +77,7 @@ export function Swiper({ images }) {
         <div key={index} className="w-full h-full relative">
           <Image
             src={image}
-            alt="image 4"
+            alt="image for property in syria"
             fill={true}
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             className="object-cover"

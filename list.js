@@ -13,9 +13,9 @@ export const list = [
       "/images/matenalsahelchalet/matenalsahel-tartus-syria-chalet-apartment-forrent-airbnb-rentals-amazingviewforrent5.jpeg",
       "/images/matenalsahelchalet/matenalsahel-tartus-syria-chalet-apartment-forrent-airbnb-rentals-amazingviewforrent2.jpeg",
       "/images/matenalsahelchalet/matenalsahel-tartus-syria-chalet-apartment-forrent-airbnb-rentals-amazingviewforrent3.jpeg",
-      "/images/matenalsahelchalet/matenalsahel-tartus-syria-chalet-apartment-forrent-airbnb-rentals-amazingviewforrent1.jpeg",
       "/images/matenalsahelchalet/matenalsahel-tartus-syria-chalet-apartment-forrent-airbnb-rentals-amazingviewforrent6.jpeg",
       "/images/matenalsahelchalet/matenalsahel-tartus-syria-chalet-apartment-forrent-airbnb-rentals-amazingviewforrent7.jpeg",
+      "/images/matenalsahelchalet/matenalsahel-tartus-syria-chalet-apartment-forrent-airbnb-rentals-amazingviewforrent1.jpeg",
     ],
     cardDescription:
       "Escape to your modern Maten al Sahel apartment. Breathtaking mountain and Mediterranean views await!",
@@ -103,9 +103,9 @@ export const list = [
       "/images/damascusmadaiavilla/madaya-damascus-syria-villa-villaforrent-airbnb-rentals8.jpeg",
       "/images/damascusmadaiavilla/madaya-damascus-syria-villa-villaforrent-airbnb-rentals6.jpeg",
       "/images/damascusmadaiavilla/madaya-damascus-syria-villa-villaforrent-airbnb-rentals5.jpeg",
+      "/images/damascusmadaiavilla/madaya-damascus-syria-villa-villaforrent-airbnb-rentals12.jpeg",
       "/images/damascusmadaiavilla/madaya-damascus-syria-villa-villaforrent-airbnb-rentals11.jpeg",
       "/images/damascusmadaiavilla/madaya-damascus-syria-villa-villaforrent-airbnb-rentals4.jpeg",
-      "/images/damascusmadaiavilla/madaya-damascus-syria-villa-villaforrent-airbnb-rentals12.jpeg",
       "/images/damascusmadaiavilla/madaya-damascus-syria-villa-villaforrent-airbnb-rentals13.jpeg",
     ],
     cardDescription:

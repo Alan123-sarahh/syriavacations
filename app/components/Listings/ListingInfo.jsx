@@ -64,7 +64,9 @@ text-lg font-light text-neutral-500"
       <ListingsAmenities features={features} addedamenities={addedamenities} />
       <hr />
       <div>
-        <p className=" text-2xl text-black font-semibold">Where you'll be</p>
+        <p className=" text-2xl text-black font-semibold">
+          Where you&#39;ll be
+        </p>
 
         <iframe
           src={mapId}

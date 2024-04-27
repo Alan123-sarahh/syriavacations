@@ -10,7 +10,7 @@ export default function Gallery({ images }) {
             <div className="h-[400px] w-full relative ">
               <Image
                 src={images[0]}
-                alt="image for syria property"
+                alt="image for property in syria"
                 fill={true}
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 className=" rounded-l-xl object-cover object-center"
@@ -21,7 +21,7 @@ export default function Gallery({ images }) {
             <div className=" relative w-full h-[200px] md:w-1/2 ">
               <Image
                 src={images[1]}
-                alt="image for property in damascus"
+                alt="image for property in syria"
                 fill={true}
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 className="pr-[3px] pb-[3px] object-cover object-center"
@@ -30,7 +30,7 @@ export default function Gallery({ images }) {
             <div className=" relative w-1/2 h-[200px]  hidden md:block">
               <Image
                 src={images[2]}
-                alt="image for property in damascus"
+                alt="image for property in syria"
                 fill={true}
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 className="pl-[3px] pb-[3px] rounded-tr-xl object-cover object-center"
@@ -39,7 +39,7 @@ export default function Gallery({ images }) {
             <div className="relative w-full h-[200px] md:w-1/2  ">
               <Image
                 src={images[3]}
-                alt="image for property in damascus"
+                alt="image for property in syria"
                 fill={true}
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 className="pt-[3px] pr-[3px] object-cover object-center"
@@ -48,7 +48,7 @@ export default function Gallery({ images }) {
             <div className=" relative w-1/2 h-[200px] hidden md:block">
               <Image
                 src={images[4]}
-                alt="image for property in damascus"
+                alt="image for property in syria"
                 fill={true}
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 className="pl-[3px] pt-[3px] rounded-br-xl object-cover object-center"
