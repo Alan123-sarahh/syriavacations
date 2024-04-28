@@ -90,7 +90,7 @@ export const list = [
     id: 3,
     title: "Luxurious Villa in Madaya",
     location: "Madaya, Damascus",
-    price: "4400,000",
+    price: "3300,000",
     description:
       "Spacious Luxury in Madaya:  This 6-bedroom villa in Madaya provides ample space for families and friends. Enjoy a private pool, sauna, billiards room, and large gardens with games for a fun-filled Syrian vacation.",
     arabicDescription:
