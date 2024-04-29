@@ -43,51 +43,6 @@ export const list = [
   },
   {
     id: 2,
-    title: "Traditional House in Al Sawda",
-    location: "Al Sawda, Tartus",
-    price: "850,000",
-    description:
-      "Traditional 3-bedroom house with big garden & salon. Relax in a historic village near Tartus, known for its black stone architecture. (Interior photos available upon request)",
-    arabicDescription:
-      "منزل تراثي ساحر مكون من ثلاث غرف نوم مع حديقة كبيرة وصالة. استرخ في قرية تاريخية بالقرب من طرطوس، تشتهر بعمارتها الحجرية السوداء. (الصور الداخلية متاحة عند الطلب)",
-    image: [
-      "/images/alsawdahouse/alsawda-tartus-syria-home-house-villaforrent-airbnb-rentals5.jpg",
-      "/images/alsawdahouse/alsawda-tartus-syria-home-house-villaforrent-airbnb-rentals9.jpg",
-      "/images/alsawdahouse/alsawda-tartus-syria-home-house-villaforrent-airbnb-rentals8.jpg",
-      "/images/alsawdahouse/alsawda-tartus-syria-home-house-villaforrent-airbnb-rentals13.jpg",
-      "/images/alsawdahouse/alsawda-tartus-syria-home-house-villaforrent-airbnb-rentals4.jpg",
-      "/images/alsawdahouse/alsawda-tartus-syria-home-house-villaforrent-airbnb-rentals7.jpg",
-      "/images/alsawdahouse/alsawda-tartus-syria-home-house-villaforrent-airbnb-rentals2.jpg",
-      "/images/alsawdahouse/alsawda-tartus-syria-home-house-villaforrent-airbnb-rentals3.jpg",
-      "/images/alsawdahouse/alsawda-tartus-syria-home-house-villaforrent-airbnb-rentals12.jpg",
-    ],
-    cardDescription:
-      "Black Stone Escape! Traditional 3BR house near Tartus. Large garden, salon. Immerse yourself in history!",
-    hostedBy: "Andreh",
-    guests: 6,
-    rooms: 5,
-    bathrooms: 2,
-    addedamenities: 6,
-    Features: {
-      uniqeExperiance: true,
-      wifi: true,
-      nearbyAttractions: true,
-      airConditioning: true,
-      kitchen: true,
-      parking: true,
-      garden: true,
-      tv: true,
-      grill: true,
-    },
-    mapId:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6537.964120701257!2d35.94920860538175!3d34.982114081776665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1523d8589e47b899%3A0x564287ea8ef1ca6e!2z2KfZhNiz2YjYr9in2Iwg2LPZiNix2YrYpw!5e0!3m2!1sar!2snl!4v1713922577016!5m2!1sar!2snl",
-    rules: {
-      checkIn: "anytime",
-      checkOut: "11:00 AM",
-    },
-  },
-  {
-    id: 3,
     title: "Luxurious Villa in Madaya",
     location: "Madaya, Damascus",
     price: "3300,000",
@@ -137,7 +92,7 @@ export const list = [
     },
   },
   {
-    id: 4,
+    id: 3,
     title: "Chalet in Golden Sands",
     location: "Golden Sands, Tartus",
     price: "1200,000",
@@ -179,7 +134,7 @@ export const list = [
     },
   },
   {
-    id: 5,
+    id: 4,
     title: "Duplex Apartment in Shahin Resort",
     location: "Shahin Resort, Tartus",
     price: "1600,000",
@@ -222,7 +177,7 @@ export const list = [
     },
   },
   {
-    id: 6,
+    id: 5,
     title: "Villa in Madaya",
     location: "Madaya, Damascus",
     price: "2700,000",
@@ -272,7 +227,7 @@ export const list = [
     },
   },
   {
-    id: 7,
+    id: 6,
     title: "Chalet in Golden Sands",
     location: "Golden Sands, Tartus",
     price: "1050,000",
@@ -311,7 +266,7 @@ export const list = [
     },
   },
   {
-    id: 8,
+    id: 7,
     title: "Cabin in Tartus",
     location: "Coming Soon!",
     price: "--,--",
@@ -350,7 +305,7 @@ export const list = [
     },
   },
   {
-    id: 9,
+    id: 8,
     title: "Beachfront Apartment in Golden Sands",
     location: "Golden Sands, Tartus",
     price: "1400,000",
@@ -394,7 +349,7 @@ export const list = [
     },
   },
   {
-    id: 10,
+    id: 9,
     title: "Villa in Madaya",
     location: "Madaya, Damascus",
     price: "1500,000",
@@ -443,7 +398,7 @@ export const list = [
     },
   },
   {
-    id: 11,
+    id: 10,
     title: "Traditional House in Slinfah",
     location: "Slinfah, Lattakia",
     price: "680,000",
@@ -485,7 +440,7 @@ export const list = [
     },
   },
   {
-    id: 12,
+    id: 11,
     title: "Villa in Madaya",
     location: "Madaya, Damascus",
     price: "1650,000",
@@ -528,7 +483,7 @@ export const list = [
     },
   },
   {
-    id: 13,
+    id: 12,
     title: "Beachfront Apartment in Shahin Resort",
     location: "Shahin Resort, Tartus",
     price: "1250,000",
@@ -568,7 +523,7 @@ export const list = [
     },
   },
   {
-    id: 14,
+    id: 13,
     title: "Chalet in Mashta al Hilu",
     location: "Mashta al Hilu, Tartus",
     price: "700,000",
@@ -608,7 +563,7 @@ export const list = [
     },
   },
   {
-    id: 15,
+    id: 14,
     title: "Apartment in Golden Sands",
     location: "Golden Sands, Tartus",
     price: "650,000",
@@ -647,7 +602,7 @@ export const list = [
     },
   },
   {
-    id: 16,
+    id: 15,
     title: "Chalet in Mashta al Hilu",
     location: "Mashta al Hilu, Tartus",
     price: "450,000",
@@ -687,7 +642,7 @@ export const list = [
     },
   },
   {
-    id: 17,
+    id: 16,
     title: "Apartment in Golden Sands",
     location: "Golden Sands, Tartus",
     price: "850,000",
