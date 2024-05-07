@@ -25,7 +25,11 @@ export default function Navbar() {
   return (
     <header
       className={`bg-white  z-10 ${
-        pathname === "/" || pathname === "/thingstodo" ? "" : "shadow-sm"
+        pathname === "/" ||
+        pathname === "/thingstodo" ||
+        pathname === "/attractions"
+          ? ""
+          : "shadow-sm"
       }`}
     >
       <div className=" mx-auto w-[90%]  xl:max-w-[1300px]">

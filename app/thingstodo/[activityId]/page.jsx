@@ -61,13 +61,6 @@ export default function page({ params: { activityId } }) {
             </div>
             <hr />
             <p className=" text-2xl text-black font-semibold">Description</p>
-
-            <div
-              className="
-  text-lg font-light text-neutral-500"
-            >
-              {activities[activityId - 1].description}
-            </div>
             <div
               dir="rtl"
               className="
@@ -75,6 +68,13 @@ export default function page({ params: { activityId } }) {
             >
               {activities[activityId - 1].arabicDescription}
             </div>
+            <div
+              className="
+  text-lg font-light text-neutral-500"
+            >
+              {activities[activityId - 1].description}
+            </div>
+
             <hr />
             <div className="flex flex-wrap gap-3">
               {activities[activityId - 1].features.map((feature, index) => (
@@ -87,7 +87,7 @@ export default function page({ params: { activityId } }) {
               ))}
             </div>
             <hr />
-            <div className="mt-5 mb-10 flex flex-col gap-3 opacity-60">
+            <div className="mt-5 mb-10 flex flex-col gap-3 opacity-80">
               <div className="flex flex-row items-center gap-2">
                 <GrLocation className="w-5 h-5" />
 
