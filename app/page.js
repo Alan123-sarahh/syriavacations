@@ -1,12 +1,10 @@
 import ListingCard from "./components/Listings/ListingCard";
 import { list } from "@/list.js";
-import Categories from "./components/Navbar/Categories";
 import Link from "next/link";
 
 const Listings = () => {
   return (
     <div className=" mx-auto  w-[87%] sm:w-[90%]  xl:max-w-[1300px]">
-      <Categories />
       <div
         className="
             pt-7
