@@ -16,7 +16,7 @@ export default function Categories() {
           <div
             className={`${
               pathname === "/" ? "border-black" : "border-transparent"
-            }  hover:border-black cursor-pointer border-b-2  
+            }  sm:hover:border-black cursor-pointer border-b-2  
         flex flex-row gap-1 sm:gap-2 items-center pb-1 sm:pb-2`}
           >
             <IoBedOutline className="h-5 w-5 sm:h-6 sm:w-6 mx-auto" />
@@ -28,7 +28,7 @@ export default function Categories() {
           <div
             className={`${
               pathname === "/thingstodo" ? "border-black" : "border-transparent"
-            }  hover:border-black cursor-pointer border-b-2  
+            }  sm:hover:border-black cursor-pointer border-b-2  
           flex flex-row gap-1 sm:gap-2 items-center pb-1 sm:pb-2`}
           >
             <MdHiking className="h-6 w-6 sm:h-6 sm:w-6 mx-auto " />
@@ -42,7 +42,7 @@ export default function Categories() {
               pathname === "/attractions"
                 ? "border-black"
                 : "border-transparent"
-            }  hover:border-black cursor-pointer border-b-2 flex flex-row gap-1 sm:gap-2 items-center pb-1 sm:pb-2 mr-10 sm:mr-0`}
+            }  sm:hover:border-black cursor-pointer border-b-2 flex flex-row gap-1 sm:gap-2 items-center pb-1 sm:pb-2 mr-10 sm:mr-0`}
           >
             <GrMapLocation className="h-5 w-5 sm:h-6 sm:w-6 mx-auto " />
 
