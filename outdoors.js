@@ -1,30 +1,30 @@
 export const activities = [
   {
     id: 1,
-    title: "Farzla River Trekking Adventure",
-    location: "Paradise Valley, Lattakia",
-    date: "friday, May 10, 2024",
+    title: "Trip to Bakramah, Jabal al-Malek & Wadi al-Muluk",
+    location: "Lattakia",
+    date: "friday, May 17, 2024",
     level: "Moderate",
     headline:
-      "Farzla River Adventure: Hike, Waterfalls, & Natural Pools (May 10th)",
+      "Waterfalls, Mountains & Views - Bekrama, Wadi Al Muluk & Jabal Al Malik Adventure!",
     description:
-      "Join us for an unforgettable aquatic adventure next Friday, May 10th, in the stunning Farzla River!  We'll start by diving into a refreshing natural rock pool, perfect for warming up before exploring the majestic Waterfall.  Hike through lush forests teeming with life,  and navigate the fascinating Rocky Trenches filled with unique rock formations, including the awe-inspiring Hanging Rock .The hike is a moderate 4km, perfect for those who love spending time in nature and enjoy a refreshing swim. Don't worry if you're not a pro swimmer, there's just a short, easy submerged section (around 8 meters).",
+      "Awesome Friday trip this May 17th! We'll chill by a Bekrama waterfall, explore Wadi Al Muluk, then conquer the views from Jabal Al Malik's peak!  Delicious food & fun for everyone!",
     arabicDescription:
-      "تعالوا معنا في رحلة مائية لا تُنسى الجمعة القادمة، 10 مايو، في نهر فرزلا الخلاب! سنبدأ بالغطس في بركة صخرية طبيعية منعشة، مثالية للاستعداد لاستكشاف شلال الحجاب المهيب. ثم نتجه في مسير عبر غابات يانعة مليئة بالحياة، ونشق طريقنا عبر منطقة الخنادق الصخرية المذهلة التي تزخر بتشكيلات صخرية فريدة، بما في ذلك صخرة معلقة تخطف الأنفاس. تبلغ مسافة الرحلة 4 كيلومترات وهي سهلة إلى حد ما، ومثالية لعشاق الطبيعة والسباحة المنعشة. لا تقلق إذا لم تكن سباحًا محترفًا، فهناك قسم مغمور قصير وسهل (حوالي 8 أمتار)   .",
+      " انطلق معنا برحلة جمعة مميزة إلى بكراما ووادي الملوك وجبل الملك يوم 17 مايو!  الاسترخاء بجانب شلال رائع، ومغامرة استكشافية في وادي الملوك، وصولا إلى مشهد بانورامي يخطف الأنفاس من قمة جبل الملك، طعام شهي وفعاليات ترفيه للجميع!",
     host: "Nature Friends",
-    price: "90,000",
-    image: "/activities/trekking.jpeg",
+    price: "from 125,000",
+    image: "/activities/king.jpeg",
     features: [
       "Walking",
       "River",
       "Views",
       "Swimming",
-      "Trekking",
+      "Mountain",
       "Social",
       "Bird watching",
       "Wildlife",
     ],
-    startingPoint: "lattakia",
+    startingPoint: "lattakia, tartus",
     startingTime: "9 AM from lattakia",
   },
   {
@@ -104,5 +104,33 @@ export const activities = [
     ],
     startingPoint: "Coming Soon!",
     startingTime: "Coming Soon!",
+  },
+  {
+    id: 5,
+    title: "Farzla River Trekking Adventure",
+    location: "Paradise Valley, Lattakia",
+    date: "Expired",
+    level: "Moderate",
+    headline:
+      "Farzla River Adventure: Hike, Waterfalls, & Natural Pools (May 10th)",
+    description:
+      "Join us for an unforgettable aquatic adventure next Friday, May 10th, in the stunning Farzla River!  We'll start by diving into a refreshing natural rock pool, perfect for warming up before exploring the majestic Waterfall.  Hike through lush forests teeming with life,  and navigate the fascinating Rocky Trenches filled with unique rock formations, including the awe-inspiring Hanging Rock .The hike is a moderate 4km, perfect for those who love spending time in nature and enjoy a refreshing swim. Don't worry if you're not a pro swimmer, there's just a short, easy submerged section (around 8 meters).",
+    arabicDescription:
+      "تعالوا معنا في رحلة مائية لا تُنسى الجمعة القادمة، 10 مايو، في نهر فرزلا الخلاب! سنبدأ بالغطس في بركة صخرية طبيعية منعشة، مثالية للاستعداد لاستكشاف شلال الحجاب المهيب. ثم نتجه في مسير عبر غابات يانعة مليئة بالحياة، ونشق طريقنا عبر منطقة الخنادق الصخرية المذهلة التي تزخر بتشكيلات صخرية فريدة، بما في ذلك صخرة معلقة تخطف الأنفاس. تبلغ مسافة الرحلة 4 كيلومترات وهي سهلة إلى حد ما، ومثالية لعشاق الطبيعة والسباحة المنعشة. لا تقلق إذا لم تكن سباحًا محترفًا، فهناك قسم مغمور قصير وسهل (حوالي 8 أمتار)   .",
+    host: "Nature Friends",
+    price: "90,000",
+    image: "/activities/trekking.jpeg",
+    features: [
+      "Walking",
+      "River",
+      "Views",
+      "Swimming",
+      "Trekking",
+      "Social",
+      "Bird watching",
+      "Wildlife",
+    ],
+    startingPoint: "lattakia",
+    startingTime: "9 AM from lattakia",
   },
 ];
