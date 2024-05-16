@@ -1,60 +1,6 @@
 export const activities = [
   {
     id: 1,
-    title: "Trip to Bakramah, Jabal al-Malek & Wadi al-Muluk",
-    location: "Lattakia",
-    date: "friday, May 17, 2024",
-    level: "Moderate",
-    headline:
-      "Waterfalls, Mountains & Views - Bekrama, Wadi Al Muluk & Jabal Al Malik Adventure!",
-    description:
-      "Awesome Friday trip this May 17th! We'll chill by a Bekrama waterfall, explore Wadi Al Muluk, then conquer the views from Jabal Al Malik's peak!  Delicious food & fun for everyone!",
-    arabicDescription:
-      " انطلق معنا برحلة جمعة مميزة إلى بكراما ووادي الملوك وجبل الملك يوم 17 مايو!  الاسترخاء بجانب شلال رائع، ومغامرة استكشافية في وادي الملوك، وصولا إلى مشهد بانورامي يخطف الأنفاس من قمة جبل الملك، طعام شهي وفعاليات ترفيه للجميع!",
-    host: "Nature Friends",
-    price: "from 125,000",
-    image: "/activities/king.jpeg",
-    features: [
-      "Walking",
-      "River",
-      "Views",
-      "Swimming",
-      "Mountain",
-      "Social",
-      "Bird watching",
-      "Wildlife",
-    ],
-    startingPoint: "lattakia, tartus",
-    startingTime: "9 AM from lattakia",
-  },
-  {
-    id: 2,
-    title: "Camping Near the Basqin River",
-    location: "Basqin River, Lattakia",
-    date: "Thursday, May 16, 2024",
-    level: "Easy",
-    headline: "Create Lasting Memories: Basqin River Camping Adventure",
-    description:
-      "Calling all nature lovers!  Escape the ordinary and unwind by the beautiful Basqin River (May 16th-18th). Imagine waking up to the gentle sounds of flowing water and lush greenery all around. Relax under the shade of trees, take a dip in the crystal-clear river, and gather around a crackling campfire to enjoy delicious meals. Feeling adventurous? Join us for a fun jungle trek and discover hidden wonders! Here's what makes your escape special: Effortless Camping: Our campsite is conveniently close to the bus stop (with baggage transfer!), so you can relax without lugging heavy bags. Comfy & Easy: Bring your snacks and drinks (don't forget your swimsuit!), and choose between pitching your own tent or renting one from us. Sleeping bags are also available. Unforgettable Experiences: Relax by the river, explore the jungle, and enjoy activities planned just for you. Escape the everyday and create lasting memories!",
-    arabicDescription:
-      "عشاق الطبيعة، تعالوا إلى ملاذكم الهادئ بجانب نهر بسقين الرائع (من 16 إلى 18 أيار)! تخيلوا الاستيقاظ على أصوات المياه المتدفقة والطبيعة الخضراء المحيطة بكم. استرخوا تحت ظلال الأشجار، خذوا غطسة منعشة في المياه الصافية، وتجمعوا حول نار المخيم المتوهجة لتستمتعوا بوجبات لذيذة. هل تشعرون بالحماس؟ انضموا إلينا في رحلة ممتعة في الغابة واكتشفوا عجائبها المخفية! ما يميز رحلتكم: تخييم مريح: موقع التخييم قريب جدًا من موقف الحافلات, سهولة وراحة: احضروا وجباتكم الخفيفة والمشروبات (لا تنسوا ملابس السباحة!) واختاروا بين نصب خيمتكم الخاصة أو استئجار واحدة منا. تتوفر أيضًا أكياس النوم للإيجار. تجارب لا تُنسى: استريحوا بجانب النهر، واستكشفوا الغابة، واستمتعوا بالأنشطة المخطط لها خصيصًا لكم. اهربوا من الروتين واصنعوا ذكريات لا تُنسى!",
-    host: "Nature Friends",
-    price: "from 120,000",
-    image: "/activities/campingbyriver.jpeg",
-    features: [
-      "Camping",
-      "Walking",
-      "River",
-      "Views",
-      "Forest",
-      "Wildlife",
-      "Bird watching",
-    ],
-    startingPoint: "lattakia, damascus",
-    startingTime: "7:15 AM from damascus",
-  },
-  {
-    id: 3,
     title: "Camping on the beach",
     location: "Armenian Bay, Lattakia",
     date: "Coming Soon!",
@@ -80,7 +26,7 @@ export const activities = [
     startingTime: "Coming Soon!",
   },
   {
-    id: 4,
+    id: 2,
     title: "Zipline and Skybike",
     location: "Al qadmus, Tartus",
     date: "Coming Soon!",
@@ -106,7 +52,7 @@ export const activities = [
     startingTime: "Coming Soon!",
   },
   {
-    id: 5,
+    id: 3,
     title: "Farzla River Trekking Adventure",
     location: "Paradise Valley, Lattakia",
     date: "Expired",
@@ -132,5 +78,59 @@ export const activities = [
     ],
     startingPoint: "lattakia",
     startingTime: "9 AM from lattakia",
+  },
+  {
+    id: 4,
+    title: "Trip to Bakramah, Jabal al-Malek & Wadi al-Muluk",
+    location: "Lattakia",
+    date: "Expired",
+    level: "Moderate",
+    headline:
+      "Waterfalls, Mountains & Views - Bekrama, Wadi Al Muluk & Jabal Al Malik Adventure!",
+    description:
+      "Awesome Friday trip this May 17th! We'll chill by a Bekrama waterfall, explore Wadi Al Muluk, then conquer the views from Jabal Al Malik's peak!  Delicious food & fun for everyone!",
+    arabicDescription:
+      " انطلق معنا برحلة جمعة مميزة إلى بكراما ووادي الملوك وجبل الملك يوم 17 مايو!  الاسترخاء بجانب شلال رائع، ومغامرة استكشافية في وادي الملوك، وصولا إلى مشهد بانورامي يخطف الأنفاس من قمة جبل الملك، طعام شهي وفعاليات ترفيه للجميع!",
+    host: "Nature Friends",
+    price: "from 125,000",
+    image: "/activities/king.jpeg",
+    features: [
+      "Walking",
+      "River",
+      "Views",
+      "Swimming",
+      "Mountain",
+      "Social",
+      "Bird watching",
+      "Wildlife",
+    ],
+    startingPoint: "lattakia, tartus",
+    startingTime: "9 AM from lattakia",
+  },
+  {
+    id: 5,
+    title: "Camping Near the Basqin River",
+    location: "Basqin River, Lattakia",
+    date: "Expired",
+    level: "Easy",
+    headline: "Create Lasting Memories: Basqin River Camping Adventure",
+    description:
+      "Calling all nature lovers!  Escape the ordinary and unwind by the beautiful Basqin River (May 16th-18th). Imagine waking up to the gentle sounds of flowing water and lush greenery all around. Relax under the shade of trees, take a dip in the crystal-clear river, and gather around a crackling campfire to enjoy delicious meals. Feeling adventurous? Join us for a fun jungle trek and discover hidden wonders! Here's what makes your escape special: Effortless Camping: Our campsite is conveniently close to the bus stop (with baggage transfer!), so you can relax without lugging heavy bags. Comfy & Easy: Bring your snacks and drinks (don't forget your swimsuit!), and choose between pitching your own tent or renting one from us. Sleeping bags are also available. Unforgettable Experiences: Relax by the river, explore the jungle, and enjoy activities planned just for you. Escape the everyday and create lasting memories!",
+    arabicDescription:
+      "عشاق الطبيعة، تعالوا إلى ملاذكم الهادئ بجانب نهر بسقين الرائع (من 16 إلى 18 أيار)! تخيلوا الاستيقاظ على أصوات المياه المتدفقة والطبيعة الخضراء المحيطة بكم. استرخوا تحت ظلال الأشجار، خذوا غطسة منعشة في المياه الصافية، وتجمعوا حول نار المخيم المتوهجة لتستمتعوا بوجبات لذيذة. هل تشعرون بالحماس؟ انضموا إلينا في رحلة ممتعة في الغابة واكتشفوا عجائبها المخفية! ما يميز رحلتكم: تخييم مريح: موقع التخييم قريب جدًا من موقف الحافلات, سهولة وراحة: احضروا وجباتكم الخفيفة والمشروبات (لا تنسوا ملابس السباحة!) واختاروا بين نصب خيمتكم الخاصة أو استئجار واحدة منا. تتوفر أيضًا أكياس النوم للإيجار. تجارب لا تُنسى: استريحوا بجانب النهر، واستكشفوا الغابة، واستمتعوا بالأنشطة المخطط لها خصيصًا لكم. اهربوا من الروتين واصنعوا ذكريات لا تُنسى!",
+    host: "Nature Friends",
+    price: "from 120,000",
+    image: "/activities/campingbyriver.jpeg",
+    features: [
+      "Camping",
+      "Walking",
+      "River",
+      "Views",
+      "Forest",
+      "Wildlife",
+      "Bird watching",
+    ],
+    startingPoint: "lattakia, damascus",
+    startingTime: "7:15 AM from damascus",
   },
 ];

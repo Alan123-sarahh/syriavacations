@@ -1,7 +1,6 @@
 import React from "react";
 import { activities } from "@/outdoors";
 import Image from "next/image";
-import BottomNav from "@/app/components/BottomNav";
 import { GrLocation } from "react-icons/gr";
 import { IoTimeOutline } from "react-icons/io5";
 import Link from "next/link";
@@ -157,6 +156,7 @@ export default function page({ params: { activityId } }) {
           </div>
         </div>
       </div>
+
       <div className="fixed md:hidden right-0 bottom-0  h-[70px] sm:h-20 w-full px-5 bg-white border-t flex flex-col justify-center z-10">
         <div className="flex justify-between items-center">
           <div className="flex flex-row items-center gap-1">
