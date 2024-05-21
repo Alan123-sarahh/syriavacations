@@ -5,7 +5,7 @@ import OriginTracker from "./components/OriginTracker";
 import Footer from "./components/Footer";
 import { Analytics } from "@vercel/analytics/react";
 
-const font = Nunito({ subsets: ["latin"], display: "swap" });
+const font = Nunito({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Syria Vacation Rentals & Airbnb",
