@@ -192,4 +192,32 @@ export const activities = [
     startingPoint: "lattakia, tartus",
     startingTime: "9 AM from lattakia",
   },
+  {
+    id: 8,
+    title: "Trip to Bakramah, Jabal al-Malek & Wadi al-Muluk",
+    location: "Lattakia",
+    date: "Expired",
+    level: "Moderate",
+    headline:
+      "Waterfalls, Mountains & Views - Bekrama, Wadi Al Muluk & Jabal Al Malik Adventure!",
+    description:
+      "Awesome Friday trip this May 17th! We'll chill by a Bekrama waterfall, explore Wadi Al Muluk, then conquer the views from Jabal Al Malik's peak!  Delicious food & fun for everyone!",
+    arabicDescription:
+      " انطلق معنا برحلة جمعة مميزة إلى بكراما ووادي الملوك وجبل الملك يوم 17 مايو!  الاسترخاء بجانب شلال رائع، ومغامرة استكشافية في وادي الملوك، وصولا إلى مشهد بانورامي يخطف الأنفاس من قمة جبل الملك، طعام شهي وفعاليات ترفيه للجميع!",
+    host: "Nature Friends",
+    price: "from 125,000",
+    image: "/activities/damas.jpg",
+    features: [
+      "Walking",
+      "River",
+      "Views",
+      "Swimming",
+      "Mountain",
+      "Social",
+      "Bird watching",
+      "Wildlife",
+    ],
+    startingPoint: "lattakia, tartus",
+    startingTime: "9 AM from lattakia",
+  },
 ];

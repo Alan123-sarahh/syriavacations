@@ -641,44 +641,4 @@ export const list = [
       checkOut: "11:00 AM",
     },
   },
-  {
-    id: 16,
-    title: "Apartment in Golden Sands",
-    location: "Golden Sands, Tartus",
-    price: "850,000",
-    description:
-      "This 2-bedroom beachfront apartment offers a private balcony with stunning views of Golden Sands beach in Tartus. Relax by the sea & unwind in comfort.",
-    arabicDescription:
-      "تقدم هذه الشقة ذات غرفتي نوم على الشاطئ شرفة خاصة تطل على مناظر خلابة لشاطئ الرمال الذهبية في طرطوس. استرخِ عند البحر واستمتع بالراحة.",
-    image: [
-      "/images/remal/alremalalzahabiahtartuschalet1.jpeg",
-      "/images/remal/alremalalzahabiahtartuschalet5.jpeg",
-      "/images/remal/alremalalzahabiahtartuschalet6.jpeg",
-      "/images/remal/alremalalzahabiahtartuschalet3.jpeg",
-      "/images/remal/alremalalzahabiahtartuschalet4.jpeg",
-      "/images/remal/alremalalzahabiahtartuschalet2.jpeg",
-    ],
-    cardDescription:
-      "Tartus Escape: Beachfront Bliss with Balcony (2 Bedrooms)",
-    hostedBy: "Ahmad",
-    guests: 5,
-    rooms: 3,
-    bathrooms: 2,
-    addedamenities: 6,
-    Features: {
-      wifi: true,
-      beachAccess: true,
-      airConditioning: true,
-      pets: true,
-      kitchen: true,
-      tv: true,
-      refrigerator: true,
-    },
-    mapId:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6534.7922379688425!2d35.902722905375605!3d35.021818977457144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x152162141f9e31ab%3A0xf5b447615b1cc9b8!2z2KfZhNix2YXYp9mEINin2YTYsNmH2KjZitip!5e0!3m2!1sar!2snl!4v1713963572896!5m2!1sar!2snl",
-    rules: {
-      checkIn: "anytime",
-      checkOut: "11:00 AM",
-    },
-  },
 ];
