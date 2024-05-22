@@ -33,35 +33,21 @@ export default function Navbar() {
       }`}
     >
       <div className=" mx-auto w-[90%]  xl:max-w-[1300px]">
-        <nav className="flex flex-col items-center justify-between ">
+        <nav className="flex items-center justify-between ">
           {pathname === "/" ||
           pathname === "/thingstodo" ||
           pathname === "/attractions" ? (
-            <>
-              <div className="py-4">
-                <Link href="/">
-                  <div className="relative w-44 h-10 md:min-w-48 lg:w-52">
-                    <Image
-                      src="/images/logo.svg"
-                      alt="syria vacations"
-                      fill={true}
-                    />
-                  </div>
-                </Link>
-              </div>
-              <div
-                className="
-              w-full"
-              >
-                <div className="w-full border rounded-full py-2 ">
-                  <input
-                    type="text"
-                    className="ml-3"
-                    placeholder="where to go"
+            <div className="py-4">
+              <Link href="/">
+                <div className="relative w-44 h-10 md:min-w-48 lg:w-52">
+                  <Image
+                    src="/images/logo.svg"
+                    alt="syria vacations"
+                    fill={true}
                   />
                 </div>
-              </div>
-            </>
+              </Link>
+            </div>
           ) : (
             <button
               onClick={onClick}
