@@ -1,64 +1,6 @@
 export const activities = [
   {
     id: 1,
-    title: "Qalat Al Kahf Camp & Adventure",
-    location: "Al Qadmus, Tartus",
-    date: "Thursday, May 23, 2024",
-    level: "Easy",
-    headline:
-      "Dive into Nature's Wonders - Unforgettable Camping Trip at Qalat Al Kahf (May 23-25)",
-    description:
-      "Are you ready for an extraordinary adventure to Qalat Al Kahf? Join us from May 23rd to 25th for a unique camping trip with an amphibious twist! We'll explore the beauty of Mawla Hasan Forest, witness the majesty of the castle's waterfalls, visit the historic Qalat Al Kahf itself, and take a dip in the refreshing natural streams. Nature enthusiasts and adventure seekers will love this trip. We'll have a variety of activities including camping, learning to manage campfires, scenic hikes, and even an optional advanced amphibious experience! Don't miss this chance to discover the hidden wonders of Qalat Al Kahf and create unforgettable memories in the heart of nature!",
-    arabicDescription:
-      "انضم إلينا في رحلة استثنائية إلى قلعة الكهف (من 23 إلى 25 أيار)! حيث سنقيم مخيمًا ونخوض تجربة برمائية فريدة من نوعها. سنستكشف غابة المولى حسن، ونشاهد شلالات القلعة، ونزور قلعة الكهف، ونسبح في الجداول العذبة. رحلة مثالية لمحبي الطبيعة والمغامرة، مع أنشطة متنوعة مثل إقامة المخيم، وإدارة نار المخيم، والمشي لمسافات طويلة، وتجربة توغل برمائي متقدم (اختياري). لا تفوت فرصة اكتشاف قلعة الكهف وخوض مغامرة لا تُنسى في قلب الطبيعة الساحرة!",
-    host: "Syrian Association for Mountain Activities",
-    price: "from 150,000",
-    image: "/activities/cc9.jpg",
-    features: [
-      "Camping",
-      "Walking",
-      "River",
-      "Views",
-      "Forest",
-      "Campfire",
-      "Trekking",
-      "Social",
-      "Wildlife",
-      "Bird watching",
-    ],
-    startingPoint: "damascus, homs, banias",
-    startingTime: "inquiry required",
-  },
-  {
-    id: 2,
-    title: "Wadi al-Kahf Adventure Trip",
-    location: "Al Qadmus, Tartus",
-    date: "friday, May 24, 2024",
-    level: "Moderate",
-    headline:
-      "Explore Syria's Wadi al-Kahf: Hike, swim & discover hidden beauty!",
-    description:
-      "The Northern Cave Valley in Tartous Governorate is an ideal destination for nature and adventure lovers, as it provides a wonderful path that combines swimming in natural rock pools, rock climbing, exploring a historical castle, and enjoying stunning panoramic views, The trail begins at the Hamam Waasil River and heads north along a valley rich in captivating details, where you will encounter distinctive rock pools.",
-    arabicDescription:
-      "يُعدّ وادي الكهف الشمالي في محافظة طرطوس وجهة مثالية لمحبي الطبيعة والمغامرة، حيث يوفر مسارًا رائعًا يجمع بين السباحة في أحواض صخرية طبيعية، وتسلق الصخور، واستكشاف قلعة تاريخية، والاستمتاع بإطلالات بانورامية خلابة, يبدأ المسار من نهر حمام واصل، ويتجه شمالًا على طول وادي غني بالتفاصيل الساحرة، حيث ستصادفون أحواض السباحة الصخرية المميزة.",
-    host: "Nature Friends",
-    price: "100,000",
-    image: "/activities/cave2.jpg",
-    features: [
-      "Trekking",
-      "Walking",
-      "Historical Experience",
-      "River",
-      "Views",
-      "Social",
-      "Wildlife",
-      "Bird watching",
-    ],
-    startingPoint: "lattakia, jableh, banias",
-    startingTime: "inquiry required",
-  },
-  {
-    id: 3,
     title: "Camping on the beach",
     location: "Armenian Bay, Lattakia",
     date: "Coming Soon!",
@@ -85,7 +27,7 @@ export const activities = [
     startingTime: "Coming Soon!",
   },
   {
-    id: 4,
+    id: 2,
     title: "Zipline and Skybike",
     location: "Al Qadmus, Tartus",
     date: "Coming Soon!",
@@ -109,6 +51,64 @@ export const activities = [
     ],
     startingPoint: "Coming Soon!",
     startingTime: "Coming Soon!",
+  },
+  {
+    id: 3,
+    title: "Wadi al-Kahf Adventure Trip",
+    location: "Al Qadmus, Tartus",
+    date: "Expired",
+    level: "Moderate",
+    headline:
+      "Explore Syria's Wadi al-Kahf: Hike, swim & discover hidden beauty!",
+    description:
+      "The Northern Cave Valley in Tartous Governorate is an ideal destination for nature and adventure lovers, as it provides a wonderful path that combines swimming in natural rock pools, rock climbing, exploring a historical castle, and enjoying stunning panoramic views, The trail begins at the Hamam Waasil River and heads north along a valley rich in captivating details, where you will encounter distinctive rock pools.",
+    arabicDescription:
+      "يُعدّ وادي الكهف الشمالي في محافظة طرطوس وجهة مثالية لمحبي الطبيعة والمغامرة، حيث يوفر مسارًا رائعًا يجمع بين السباحة في أحواض صخرية طبيعية، وتسلق الصخور، واستكشاف قلعة تاريخية، والاستمتاع بإطلالات بانورامية خلابة, يبدأ المسار من نهر حمام واصل، ويتجه شمالًا على طول وادي غني بالتفاصيل الساحرة، حيث ستصادفون أحواض السباحة الصخرية المميزة.",
+    host: "Nature Friends",
+    price: "100,000",
+    image: "/activities/cave2.jpg",
+    features: [
+      "Trekking",
+      "Walking",
+      "Historical Experience",
+      "River",
+      "Views",
+      "Social",
+      "Wildlife",
+      "Bird watching",
+    ],
+    startingPoint: "lattakia, jableh, banias",
+    startingTime: "inquiry required",
+  },
+  {
+    id: 4,
+    title: "Qalat Al Kahf Camp & Adventure",
+    location: "Al Qadmus, Tartus",
+    date: "Expired",
+    level: "Easy",
+    headline:
+      "Dive into Nature's Wonders - Unforgettable Camping Trip at Qalat Al Kahf (May 23-25)",
+    description:
+      "Are you ready for an extraordinary adventure to Qalat Al Kahf? Join us from May 23rd to 25th for a unique camping trip with an amphibious twist! We'll explore the beauty of Mawla Hasan Forest, witness the majesty of the castle's waterfalls, visit the historic Qalat Al Kahf itself, and take a dip in the refreshing natural streams. Nature enthusiasts and adventure seekers will love this trip. We'll have a variety of activities including camping, learning to manage campfires, scenic hikes, and even an optional advanced amphibious experience! Don't miss this chance to discover the hidden wonders of Qalat Al Kahf and create unforgettable memories in the heart of nature!",
+    arabicDescription:
+      "انضم إلينا في رحلة استثنائية إلى قلعة الكهف (من 23 إلى 25 أيار)! حيث سنقيم مخيمًا ونخوض تجربة برمائية فريدة من نوعها. سنستكشف غابة المولى حسن، ونشاهد شلالات القلعة، ونزور قلعة الكهف، ونسبح في الجداول العذبة. رحلة مثالية لمحبي الطبيعة والمغامرة، مع أنشطة متنوعة مثل إقامة المخيم، وإدارة نار المخيم، والمشي لمسافات طويلة، وتجربة توغل برمائي متقدم (اختياري). لا تفوت فرصة اكتشاف قلعة الكهف وخوض مغامرة لا تُنسى في قلب الطبيعة الساحرة!",
+    host: "Syrian Association for Mountain Activities",
+    price: "from 150,000",
+    image: "/activities/cc9.jpg",
+    features: [
+      "Camping",
+      "Walking",
+      "River",
+      "Views",
+      "Forest",
+      "Campfire",
+      "Trekking",
+      "Social",
+      "Wildlife",
+      "Bird watching",
+    ],
+    startingPoint: "damascus, homs, banias",
+    startingTime: "inquiry required",
   },
   {
     id: 5,
