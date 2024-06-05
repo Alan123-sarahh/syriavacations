@@ -33,7 +33,15 @@ export default function Navbar() {
       }`}
     >
       <div className=" mx-auto w-[90%]  xl:max-w-[1300px]">
-        <nav className="flex items-center justify-between ">
+        <nav
+          className={`flex items-center ${
+            pathname === "/" ||
+            pathname === "/thingstodo" ||
+            pathname === "/attractions"
+              ? " justify-center md:justify-between"
+              : " justify-between"
+          }`}
+        >
           {pathname === "/" ||
           pathname === "/thingstodo" ||
           pathname === "/attractions" ? (

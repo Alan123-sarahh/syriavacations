@@ -45,7 +45,7 @@ export const list = [
     id: 2,
     title: "Luxurious Villa in Madaya",
     location: "Madaya, Damascus",
-    price: "3300,000",
+    price: "5300,000",
     description:
       "Spacious Luxury in Madaya:  This 6-bedroom villa in Madaya provides ample space for families and friends. Enjoy a private pool, sauna, billiards room, and large gardens with games for a fun-filled Syrian vacation.",
     arabicDescription:
@@ -93,37 +93,40 @@ export const list = [
   },
   {
     id: 3,
-    title: "Chalet in Golden Sands",
+    title: "Beachfront Apartment in Golden Sands",
     location: "Golden Sands, Tartus",
-    price: "1200,000",
+    price: "2200,000",
     description:
-      "In Golden Sands, Tartus, this cozy chalet with two bedrooms and a welcoming living room invites you to enjoy the summer vibe. Close to the beach, it's your perfect retreat for relaxation and fun in Tartus.",
+      "This 2-bedroom apartment offers stunning views, a spacious living area, and direct access to Golden Sands beach in Tartus. Perfect for a relaxing getaway!",
     arabicDescription:
-      " في الرمال الذهبية، طرطوس، هذه الشاليه المريحة المكونة من غرفتي نوم وغرفة معيشة جذابة تدعوك للاستمتاع بأجواء الصيف. قريبة من الشاطئ، إنها ملاذك المثالي للاسترخاء والمتعة في طرطوس. ",
+      "توفر هذه الشقة المكونة من غرفتي نوم إطلالات خلابة ومنطقة معيشة واسعة وإمكانية الوصول المباشر إلى شاطئ الرمال الذهبية في طرطوس. مثالية لقضاء عطلة مريحة!",
     image: [
-      "/images/chaletalremal/goldensands-golden-sands-tartus-syria-chalet-forrent-airbnb-rentals-1.jpeg",
-      "/images/chaletalremal/goldensands-golden-sands-tartus-syria-chalet-forrent-airbnb-rentals-2.jpeg",
-      "/images/chaletalremal/goldensands-golden-sands-tartus-syria-chalet-forrent-airbnb-rentals-8.jpeg",
-      "/images/chaletalremal/goldensands-golden-sands-tartus-syria-chalet-forrent-airbnb-rentals-5.jpeg",
-      "/images/chaletalremal/goldensands-golden-sands-tartus-syria-chalet-forrent-airbnb-rentals-4.jpeg",
-      "/images/chaletalremal/goldensands-golden-sands-tartus-syria-chalet-forrent-airbnb-rentals-3.jpeg",
-      "/images/chaletalremal/goldensands-golden-sands-tartus-syria-chalet-forrent-airbnb-rentals-7.jpeg",
+      "/images/beachfrontapartment/golden-sands-tartus-syria-beachfront-apartment-rentals4.jpg",
+      "/images/beachfrontapartment/golden-sands-tartus-syria-beachfront-apartment-rentals8.jpg",
+      "/images/beachfrontapartment/golden-sands-tartus-syria-beachfront-apartment-rentals1.jpg",
+      "/images/beachfrontapartment/golden-sands-tartus-syria-beachfront-apartment-rentals11.jpg",
+      "/images/beachfrontapartment/golden-sands-tartus-syria-beachfront-apartment-rentals12.jpg",
+      "/images/beachfrontapartment/golden-sands-tartus-syria-beachfront-apartment-rentals13.jpg",
+      "/images/beachfrontapartment/golden-sands-tartus-syria-beachfront-apartment-rentals10.jpg",
+      "/images/beachfrontapartment/golden-sands-tartus-syria-beachfront-apartment-rentals2.jpg",
+      "/images/beachfrontapartment/golden-sands-tartus-syria-beachfront-apartment-rentals7.jpg",
+      "/images/beachfrontapartment/golden-sands-tartus-syria-beachfront-apartment-rentals6.jpg",
     ],
-    cardDescription:
-      "Golden Sands retreat! 2 bedrooms, comfy living room. Beachfront bliss - relax & enjoy Tartus!",
-    hostedBy: "Talal",
-    guests: 5,
-    rooms: 4,
+    cardDescription: "Golden Sands Getaway: Balcony Bliss & Beach Steps Away!",
+    hostedBy: "Jamil",
+    guests: 4,
+    rooms: 3,
     bathrooms: 2,
-    addedamenities: 4,
+    addedamenities: 7,
     Features: {
+      uniqeExperiance: true,
       wifi: true,
       beachAccess: true,
       airConditioning: true,
       pets: true,
       kitchen: true,
-      washer: true,
       tv: true,
+      refrigerator: true,
       grill: true,
     },
     mapId:
@@ -137,7 +140,7 @@ export const list = [
     id: 4,
     title: "Duplex Apartment in Shahin Resort",
     location: "Shahin Resort, Tartus",
-    price: "1600,000",
+    price: "1900,000",
     description:
       "Shahin Escape! Relax in this spacious duplex apartment (2 salons, 3 bedrooms) at Shahin Resort, Tartus. Unwind by the stunning beach or enjoy cafes nearby. Perfect for your Tartus getaway!",
     arabicDescription:
@@ -178,9 +181,88 @@ export const list = [
   },
   {
     id: 5,
+    title: "Damascene House in Bab Sharqi",
+    location: "Bab Sharqi, Damascus",
+    price: "from 110,000",
+    description:
+      "Experience the charm and history of Damascus by renting a room in this authentic Damascene house, located in the heart of the old city. This beautifully restored property combines traditional architecture with modern comforts, providing a unique and unforgettable stay.",
+    arabicDescription:
+      "اختبر سحر وتاريخ دمشق من خلال استئجار غرفة في هذا البيت الدمشقي الأصيل، الواقع في قلب المدينة القديمة. يجمع هذا العقار الذي تم ترميمه بشكل جميل بين العمارة التقليدية ووسائل الراحة الحديثة، مما يوفر إقامة فريدة لا تُنسى.",
+    image: [
+      "/images/damashouse/damascene-house-damascus-forrent-airbnb-rentals-babsharqi4.jpg",
+      "/images/damashouse/damascene-house-damascus-forrent-airbnb-rentals-babsharqi2.jpg",
+      "/images/damashouse/damascene-house-damascus-forrent-airbnb-rentals-babsharqi3.jpg",
+      "/images/damashouse/damascene-house-damascus-forrent-airbnb-rentals-babsharqi6.jpg",
+      "/images/damashouse/damascene-house-damascus-forrent-airbnb-rentals-babsharqi5.jpg",
+      "/images/damashouse/damascene-house-damascus-forrent-airbnb-rentals-babsharqi1.jpg",
+    ],
+    cardDescription:
+      "Authentic Damascene House with Courtyard and Modern Amenities",
+    hostedBy: "Yousef",
+    guests: 15,
+    rooms: 11,
+    bathrooms: 8,
+    addedamenities: 6,
+    Features: {
+      wifi: true,
+      nearbyAttractions: true,
+      uniqeExperiance: true,
+      kitchen: true,
+      refrigerator: true,
+      fountain: true,
+      garden: true,
+    },
+    mapId:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.690408386757!2d36.32053252422721!3d33.509431046197115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1518e6d10cdabcf3%3A0xbbd8da351912bf77!2z2KjYp9ioINi02LHZgtmK2Iwg2K_Zhdi02YLYjCDYs9mI2LHZitin!5e0!3m2!1sar!2snl!4v1717333441735!5m2!1sar!2snl",
+    rules: {
+      checkIn: "anytime",
+      checkOut: "11:00 AM",
+    },
+  },
+  {
+    id: 6,
+    title: "Chalet in Golden Sands",
+    location: "Golden Sands, Tartus",
+    price: "1250,000",
+    description:
+      "Golden Sands Charm! Relax in this 1-salon, 2-bedroom chalet with a balcony view of mountains & Golden Sands resort. Steps from the beach - your Tartus escape!",
+    arabicDescription:
+      "استرخ في شاليه ساحر بغرفة معيشة واسعة وغرفتي نوم وشرفة مطلة على الجبال ومنتجع الرمال الذهبية. على بعد خطوات قليلة من الشاطئ - ملاذك في طرطوس!",
+    image: [
+      "/images/goldensandstartuschalet/goldensandstartuschalet2.jpeg",
+      "/images/goldensandstartuschalet/goldensandstartuschalet1.jpeg",
+      "/images/goldensandstartuschalet/goldensandstartuschalet5.jpeg",
+      "/images/goldensandstartuschalet/goldensandstartuschalet3.jpeg",
+      "/images/goldensandstartuschalet/goldensandstartuschalet6.jpeg",
+    ],
+    cardDescription:
+      "Mountain & Sea Views! Golden Sands chalet (1 salon, 2 bedrooms). Balcony paradise - relax near the beach!",
+    hostedBy: "Luna",
+    guests: 4,
+    rooms: 3,
+    bathrooms: 2,
+    addedamenities: 4,
+    Features: {
+      wifi: true,
+      beachAccess: true,
+      mountainView: true,
+      airConditioning: true,
+      kitchen: true,
+      refrigerator: true,
+      washer: true,
+    },
+    mapId:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6534.7922379688425!2d35.902722905375605!3d35.021818977457144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x152162141f9e31ab%3A0xf5b447615b1cc9b8!2z2KfZhNix2YXYp9mEINin2YTYsNmH2KjZitip!5e0!3m2!1sar!2snl!4v1713963572896!5m2!1sar!2snl",
+    rules: {
+      checkIn: "anytime",
+      checkOut: "11:00 AM",
+    },
+  },
+  {
+    id: 7,
     title: "Villa in Madaya",
     location: "Madaya, Damascus",
-    price: "2700,000",
+    price: "5250,000",
     description:
       "Magical Madaya awaits! This 4-bedroom villa boasts indoor & outdoor pools for year-round fun. Relax in multiple living areas or unwind in the vast garden with a terrace overlooking the mountains. Perfect for families & friends, this Syrian escape promises unforgettable memories.",
     arabicDescription:
@@ -227,46 +309,7 @@ export const list = [
     },
   },
   {
-    id: 6,
-    title: "Chalet in Golden Sands",
-    location: "Golden Sands, Tartus",
-    price: "1050,000",
-    description:
-      "Golden Sands Charm! Relax in this 1-salon, 2-bedroom chalet with a balcony view of mountains & Golden Sands resort. Steps from the beach - your Tartus escape!",
-    arabicDescription:
-      "استرخ في شاليه ساحر بغرفة معيشة واسعة وغرفتي نوم وشرفة مطلة على الجبال ومنتجع الرمال الذهبية. على بعد خطوات قليلة من الشاطئ - ملاذك في طرطوس!",
-    image: [
-      "/images/goldensandstartuschalet/goldensandstartuschalet2.jpeg",
-      "/images/goldensandstartuschalet/goldensandstartuschalet1.jpeg",
-      "/images/goldensandstartuschalet/goldensandstartuschalet5.jpeg",
-      "/images/goldensandstartuschalet/goldensandstartuschalet3.jpeg",
-      "/images/goldensandstartuschalet/goldensandstartuschalet6.jpeg",
-    ],
-    cardDescription:
-      "Mountain & Sea Views! Golden Sands chalet (1 salon, 2 bedrooms). Balcony paradise - relax near the beach!",
-    hostedBy: "Luna",
-    guests: 4,
-    rooms: 3,
-    bathrooms: 2,
-    addedamenities: 4,
-    Features: {
-      wifi: true,
-      beachAccess: true,
-      mountainView: true,
-      airConditioning: true,
-      kitchen: true,
-      refrigerator: true,
-      washer: true,
-    },
-    mapId:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6534.7922379688425!2d35.902722905375605!3d35.021818977457144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x152162141f9e31ab%3A0xf5b447615b1cc9b8!2z2KfZhNix2YXYp9mEINin2YTYsNmH2KjZitip!5e0!3m2!1sar!2snl!4v1713963572896!5m2!1sar!2snl",
-    rules: {
-      checkIn: "anytime",
-      checkOut: "11:00 AM",
-    },
-  },
-  {
-    id: 7,
+    id: 8,
     title: "Cabin in Tartus",
     location: "Coming Soon!",
     price: "--,--",
@@ -305,40 +348,38 @@ export const list = [
     },
   },
   {
-    id: 8,
-    title: "Beachfront Apartment in Golden Sands",
+    id: 9,
+    title: "Chalet in Golden Sands",
     location: "Golden Sands, Tartus",
-    price: "1400,000",
+    price: "1500,000",
     description:
-      "This 2-bedroom apartment offers stunning views, a spacious living area, and direct access to Golden Sands beach in Tartus. Perfect for a relaxing getaway!",
+      "In Golden Sands, Tartus, this cozy chalet with two bedrooms and a welcoming living room invites you to enjoy the summer vibe. Close to the beach, it's your perfect retreat for relaxation and fun in Tartus.",
     arabicDescription:
-      "توفر هذه الشقة المكونة من غرفتي نوم إطلالات خلابة ومنطقة معيشة واسعة وإمكانية الوصول المباشر إلى شاطئ الرمال الذهبية في طرطوس. مثالية لقضاء عطلة مريحة!",
+      " في الرمال الذهبية، طرطوس، هذه الشاليه المريحة المكونة من غرفتي نوم وغرفة معيشة جذابة تدعوك للاستمتاع بأجواء الصيف. قريبة من الشاطئ، إنها ملاذك المثالي للاسترخاء والمتعة في طرطوس. ",
     image: [
-      "/images/beachfrontapartment/golden-sands-tartus-syria-beachfront-apartment-rentals4.jpg",
-      "/images/beachfrontapartment/golden-sands-tartus-syria-beachfront-apartment-rentals8.jpg",
-      "/images/beachfrontapartment/golden-sands-tartus-syria-beachfront-apartment-rentals1.jpg",
-      "/images/beachfrontapartment/golden-sands-tartus-syria-beachfront-apartment-rentals7.jpg",
-      "/images/beachfrontapartment/golden-sands-tartus-syria-beachfront-apartment-rentals9.jpg",
-      "/images/beachfrontapartment/golden-sands-tartus-syria-beachfront-apartment-rentals2.jpg",
-      "/images/beachfrontapartment/golden-sands-tartus-syria-beachfront-apartment-rentals6.jpg",
-      "/images/beachfrontapartment/golden-sands-tartus-syria-beachfront-apartment-rentals5.jpg",
-      "/images/beachfrontapartment/golden-sands-tartus-syria-beachfront-apartment-rentals3.jpg",
+      "/images/chaletalremal/goldensands-golden-sands-tartus-syria-chalet-forrent-airbnb-rentals-1.jpeg",
+      "/images/chaletalremal/goldensands-golden-sands-tartus-syria-chalet-forrent-airbnb-rentals-2.jpeg",
+      "/images/chaletalremal/goldensands-golden-sands-tartus-syria-chalet-forrent-airbnb-rentals-8.jpeg",
+      "/images/chaletalremal/goldensands-golden-sands-tartus-syria-chalet-forrent-airbnb-rentals-5.jpeg",
+      "/images/chaletalremal/goldensands-golden-sands-tartus-syria-chalet-forrent-airbnb-rentals-4.jpeg",
+      "/images/chaletalremal/goldensands-golden-sands-tartus-syria-chalet-forrent-airbnb-rentals-3.jpeg",
+      "/images/chaletalremal/goldensands-golden-sands-tartus-syria-chalet-forrent-airbnb-rentals-7.jpeg",
     ],
-    cardDescription: "Golden Sands Getaway: Balcony Bliss & Beach Steps Away!",
-    hostedBy: "Jamil",
-    guests: 4,
-    rooms: 3,
+    cardDescription:
+      "Golden Sands retreat! 2 bedrooms, comfy living room. Beachfront bliss - relax & enjoy Tartus!",
+    hostedBy: "Talal",
+    guests: 5,
+    rooms: 4,
     bathrooms: 2,
-    addedamenities: 7,
+    addedamenities: 4,
     Features: {
-      uniqeExperiance: true,
       wifi: true,
       beachAccess: true,
       airConditioning: true,
       pets: true,
       kitchen: true,
+      washer: true,
       tv: true,
-      refrigerator: true,
       grill: true,
     },
     mapId:
@@ -349,10 +390,55 @@ export const list = [
     },
   },
   {
-    id: 9,
+    id: 10,
+    title: "Villa in Saidnaya",
+    location: "Saidnaya, Damascus",
+    price: "2200,000",
+    description:
+      "Escape to this charming Mediterranean-style villa located in the serene countryside near Damascus. This unique property offers a blend of rustic charm and modern amenities, perfect for families, couples, or groups looking for a peaceful retreat.",
+    arabicDescription:
+      "استمتع بالإقامة في هذه الفيلا الساحرة على الطراز المتوسطي الواقعة في الريف الهادئ بالقرب من دمشق. يوفر هذا العقار الفريد مزيجًا من السحر الريفي والمرافق العصرية ، وهو مثالي للعائلات أو الأزواج أو المجموعات التي تبحث عن ملاذ هادئ.",
+    image: [
+      "/images/sednayahvilla/villa-sednaya-damascus-forrent-airbnb-rentals2.jpg",
+      "/images/sednayahvilla/villa-sednaya-damascus-forrent-airbnb-rentals11.jpg",
+      "/images/sednayahvilla/villa-sednaya-damascus-forrent-airbnb-rentals10.jpg",
+      "/images/sednayahvilla/villa-sednaya-damascus-forrent-airbnb-rentals3.jpg",
+      "/images/sednayahvilla/villa-sednaya-damascus-forrent-airbnb-rentals8.jpg",
+      "/images/sednayahvilla/villa-sednaya-damascus-forrent-airbnb-rentals1.jpg",
+      "/images/sednayahvilla/villa-sednaya-damascus-forrent-airbnb-rentals7.jpg",
+      "/images/sednayahvilla/villa-sednaya-damascus-forrent-airbnb-rentals5.jpg",
+      "/images/sednayahvilla/villa-sednaya-damascus-forrent-airbnb-rentals6.jpg",
+    ],
+    cardDescription:
+      "Charming Mediterranean Villa with Pool, Garden, and Glass House",
+    hostedBy: "Yousef",
+    guests: 4,
+    rooms: 4,
+    bathrooms: 2,
+    addedamenities: 5,
+    Features: {
+      pool: true,
+      mountainView: true,
+      nearbyAttractions: true,
+      pets: true,
+      tv: true,
+      kitchen: true,
+      refrigerator: true,
+      garden: true,
+      grill: true,
+    },
+    mapId:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16348.245398309955!2d36.38704463209176!3d33.69014681661589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1518ec93a00f08af%3A0x69ccedceac7d621f!2z2LXZitiv2YbYp9mK2KfYjCDYs9mI2LHZitin!5e0!3m2!1sar!2snl!4v1717329365863!5m2!1sar!2snl",
+    rules: {
+      checkIn: "anytime",
+      checkOut: "11:00 AM",
+    },
+  },
+  {
+    id: 11,
     title: "Villa in Madaya",
     location: "Madaya, Damascus",
-    price: "1500,000",
+    price: "2500,000",
     description:
       "Make memories in this 6BR Madaya villa! Featuring an outdoor pool, billiards, ping pong & a vast garden, it's perfect for family & friends to relax & reconnect.",
     arabicDescription:
@@ -398,10 +484,10 @@ export const list = [
     },
   },
   {
-    id: 10,
+    id: 12,
     title: "Traditional House in Slinfah",
     location: "Slinfah, Lattakia",
-    price: "680,000",
+    price: "750,000",
     description:
       "Experience a traditional 2BR stone house with breathtaking mountain views, balcony & garden. Immerse yourself in the village vibe.",
     arabicDescription:
@@ -440,10 +526,10 @@ export const list = [
     },
   },
   {
-    id: 11,
+    id: 13,
     title: "Villa in Madaya",
     location: "Madaya, Damascus",
-    price: "1650,000",
+    price: "3250,000",
     description:
       "This 5-bedroom Madaya villa offers a stylish escape. Featuring a large pool, billiards room, vast garden with games, multiple living areas, and a stunning mountain view terrace, it's perfect for families & friends.",
     arabicDescription:
@@ -483,10 +569,10 @@ export const list = [
     },
   },
   {
-    id: 12,
+    id: 14,
     title: "Beachfront Apartment in Shahin Resort",
     location: "Shahin Resort, Tartus",
-    price: "1250,000",
+    price: "1300,000",
     description:
       "This 2-bedroom apartment boasts a balcony with stunning sea views & direct access to Shahin Resort beach in Tartus. Relax by the Sea!",
     arabicDescription:
@@ -523,7 +609,7 @@ export const list = [
     },
   },
   {
-    id: 13,
+    id: 15,
     title: "Chalet in Mashta al Hilu",
     location: "Mashta al Hilu, Tartus",
     price: "700,000",
@@ -563,25 +649,26 @@ export const list = [
     },
   },
   {
-    id: 14,
+    id: 16,
     title: "Apartment in Golden Sands",
     location: "Golden Sands, Tartus",
-    price: "650,000",
+    price: "800,000",
     description:
       "This clean & comfy 1BR apartment near Golden Sands beach offers the essentials for a relaxing getaway.",
     arabicDescription:
       "هذه الشقة النظيفة والمريحة بغرفة نوم واحدة بالقرب من شاطئ الرمال الذهبية توفر كل ما تحتاجه لإجازة مريحة.",
     image: [
       "/images/chaletingoldensandsjamil/goldensands-tartus-syria-holiday-beach-chalet-apartment-airbnb-rentals1.jpg",
-      "/images/chaletingoldensandsjamil/goldensands-tartus-syria-holiday-beach-chalet-apartment-airbnb-rentals7.jpg",
+      "/images/chaletingoldensandsjamil/goldensands-tartus-syria-holiday-beach-chalet-apartment-airbnb-rentals9.jpg",
       "/images/chaletingoldensandsjamil/goldensands-tartus-syria-holiday-beach-chalet-apartment-airbnb-rentals4.jpg",
+      "/images/chaletingoldensandsjamil/goldensands-tartus-syria-holiday-beach-chalet-apartment-airbnb-rentals8.jpg",
+      "/images/chaletingoldensandsjamil/goldensands-tartus-syria-holiday-beach-chalet-apartment-airbnb-rentals10.jpg",
       "/images/chaletingoldensandsjamil/goldensands-tartus-syria-holiday-beach-chalet-apartment-airbnb-rentals6.jpg",
       "/images/chaletingoldensandsjamil/goldensands-tartus-syria-holiday-beach-chalet-apartment-airbnb-rentals5.jpg",
-      "/images/chaletingoldensandsjamil/goldensands-tartus-syria-holiday-beach-chalet-apartment-airbnb-rentals3.jpg",
     ],
     cardDescription: "Golden Sands Escape: Clean & Cozy (Near Beach!)",
-    hostedBy: "Nader",
-    guests: 3,
+    hostedBy: "Jamil",
+    guests: 2,
     rooms: 2,
     bathrooms: 1,
     addedamenities: 4,
@@ -602,7 +689,7 @@ export const list = [
     },
   },
   {
-    id: 15,
+    id: 17,
     title: "Chalet in Mashta al Hilu",
     location: "Mashta al Hilu, Tartus",
     price: "450,000",

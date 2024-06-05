@@ -1,6 +1,61 @@
 export const activities = [
   {
     id: 1,
+    title: "Slunfeh Adventure Camp",
+    location: "Slunfeh, Lattakia",
+    date: "Tuesday, June 18, 2024",
+    level: "Easy",
+    headline:
+      "A Unique Experience to Explore History and Nature in the Heart of the Forest",
+    description:
+      "Join us for a three-day, two-night camp in Slunfeh's magical forests from June 18-20. Enjoy guided tours of ancient caves, visit the Monastery of the Virgin Mary and the Cave of Jesus Christ, learn fire-starting and rappelling skills, and explore with hands-on climbing demonstrations. Experience cozy bonfires and the serene beauty of the forest.",
+    arabicDescription:
+      "انضم إلينا في مخيم لمدة ثلاثة أيام وليلتين في غابات صلنفة الساحرة من 18 إلى 20 يونيو. استمتع بجولات تعريفية على الكهوف الأثرية، وزيارة دير السيدة العذراء ومغارة السيد يسوع المسيح، وتعلم مهارات إشعال النار والإنزال الجبلي، واستكشف الموقع بتجارب عملية لتسلق الأشجار. استمتع بالسهرة حول نار المخيم وجمال الطبيعة الهادئ في الغابة.",
+    host: "Syrian Association for Mountain Activities",
+    price: "from 175,000",
+    image: "/activities/slinfehcamping.jpeg",
+    features: [
+      "Camping",
+      "Walking",
+      "Campfire",
+      "Views",
+      "Wildlife",
+      "Bird watching",
+      "Forest",
+      "Social",
+      "History",
+    ],
+    startingPoint: "damascus, lattakia, homs",
+    startingTime: "9 AM",
+  },
+  {
+    id: 2,
+    title: "Camping on the beach",
+    location: "Om-AlTuyoor, Lattakia",
+    date: "Thursday, June 6, 2024",
+    level: "Easy",
+    headline: "Beach Camping at Om AlTuyoor",
+    description:
+      "Experience the charm of Om AlTuyoor Beach with a camping adventure from Thursday, June 6, to Friday, June 7. Marvel at the captivating scenery where the sea meets the mountains for a truly enchanting getaway. Don't miss this chance to create unforgettable memories under the starlit sky.",
+    arabicDescription:
+      "عش تجربة ساحل أم الطيور الساحرة في مغامرة تخييم رائعة تمتد من الخميس 6 يونيو إلى الجمعة 7 يونيو. انظر إلى المناظر الطبيعية الآسرة حيث يلتقي البحر بالجبال لقضاء إجازة ساحرة حقًا. لا تفوت هذه الفرصة لتكوين ذكريات لا تُنسى تحت سماء مليئة بالنجوم.",
+    host: "Nature Friends",
+    price: "from 100,000",
+    image: "/activities/wadiqandil.jpeg",
+    features: [
+      "Camping",
+      "Walking",
+      "Beach",
+      "Campfire",
+      "Views",
+      "Fishing",
+      "Bird watching",
+    ],
+    startingPoint: "lattakia",
+    startingTime: "3 PM",
+  },
+  {
+    id: 3,
     title: "Camping on the beach",
     location: "Armenian Bay, Lattakia",
     date: "Coming Soon!",
@@ -27,7 +82,7 @@ export const activities = [
     startingTime: "Coming Soon!",
   },
   {
-    id: 2,
+    id: 4,
     title: "Zipline and Skybike",
     location: "Al Qadmus, Tartus",
     date: "Coming Soon!",
@@ -53,10 +108,10 @@ export const activities = [
     startingTime: "Coming Soon!",
   },
   {
-    id: 3,
+    id: 5,
     title: "Wadi al-Kahf Adventure Trip",
     location: "Al Qadmus, Tartus",
-    date: "Expired",
+    date: "On Demand",
     level: "Moderate",
     headline:
       "Explore Syria's Wadi al-Kahf: Hike, swim & discover hidden beauty!",
@@ -65,7 +120,7 @@ export const activities = [
     arabicDescription:
       "يُعدّ وادي الكهف الشمالي في محافظة طرطوس وجهة مثالية لمحبي الطبيعة والمغامرة، حيث يوفر مسارًا رائعًا يجمع بين السباحة في أحواض صخرية طبيعية، وتسلق الصخور، واستكشاف قلعة تاريخية، والاستمتاع بإطلالات بانورامية خلابة, يبدأ المسار من نهر حمام واصل، ويتجه شمالًا على طول وادي غني بالتفاصيل الساحرة، حيث ستصادفون أحواض السباحة الصخرية المميزة.",
     host: "Nature Friends",
-    price: "100,000",
+    price: "--,--",
     image: "/activities/cave2.jpg",
     features: [
       "Trekking",
@@ -77,11 +132,11 @@ export const activities = [
       "Wildlife",
       "Bird watching",
     ],
-    startingPoint: "lattakia, jableh, banias",
+    startingPoint: "inquiry required",
     startingTime: "inquiry required",
   },
   {
-    id: 4,
+    id: 6,
     title: "Qalat Al Kahf Camp & Adventure",
     location: "Al Qadmus, Tartus",
     date: "Expired",
@@ -111,7 +166,7 @@ export const activities = [
     startingTime: "inquiry required",
   },
   {
-    id: 5,
+    id: 7,
     title: "Farzla River Trekking Adventure",
     location: "Paradise Valley, Lattakia",
     date: "Expired",
@@ -139,7 +194,7 @@ export const activities = [
     startingTime: "9 AM from lattakia",
   },
   {
-    id: 6,
+    id: 8,
     title: "Camping Near the Basqin River",
     location: "Basqin River, Lattakia",
     date: "Expired",
@@ -165,7 +220,7 @@ export const activities = [
     startingTime: "7:15 AM from damascus",
   },
   {
-    id: 7,
+    id: 9,
     title: "Trip to Bakramah, Jabal al-Malek & Wadi al-Muluk",
     location: "Lattakia",
     date: "Expired",

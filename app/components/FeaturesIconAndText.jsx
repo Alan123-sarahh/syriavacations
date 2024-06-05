@@ -15,6 +15,7 @@ import { RiBilliardsLine } from "react-icons/ri";
 import { BiSolidWasher } from "react-icons/bi";
 import { SlScreenDesktop } from "react-icons/sl";
 import { CgSmartHomeRefrigerator } from "react-icons/cg";
+import { TbFountain } from "react-icons/tb";
 
 export default function FeaturesIconAndText({ features }) {
   return (
@@ -74,6 +75,13 @@ export default function FeaturesIconAndText({ features }) {
           <TbToolsKitchen2 className="w-7 h-7" />
 
           <p className="text-lg">Kitchen</p>
+        </div>
+      )}
+      {features?.fountain && (
+        <div className="flex flex-row items-center gap-5">
+          <TbFountain className="w-7 h-7" />
+
+          <p className="text-lg">Fountain</p>
         </div>
       )}
       {features?.tv && (

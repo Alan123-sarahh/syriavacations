@@ -12,7 +12,7 @@ export default function page({ params: { activityId } }) {
     "
     >
       <div className="flex flex-col gap-6">
-        <div className="h-[370px] w-full relative sm:h-[450px] ">
+        <div className="h-[370px] w-full relative sm:h-[450px] md:h-[500px]">
           <Image
             src={activities[activityId - 1].image}
             fill={true}
