@@ -31,32 +31,6 @@ export const activities = [
   {
     id: 2,
     title: "Camping on the beach",
-    location: "Om-AlTuyoor, Lattakia",
-    date: "Thursday, June 6, 2024",
-    level: "Easy",
-    headline: "Beach Camping at Om AlTuyoor",
-    description:
-      "Experience the charm of Om AlTuyoor Beach with a camping adventure from Thursday, June 6, to Friday, June 7. Marvel at the captivating scenery where the sea meets the mountains for a truly enchanting getaway. Don't miss this chance to create unforgettable memories under the starlit sky.",
-    arabicDescription:
-      "عش تجربة ساحل أم الطيور الساحرة في مغامرة تخييم رائعة تمتد من الخميس 6 يونيو إلى الجمعة 7 يونيو. انظر إلى المناظر الطبيعية الآسرة حيث يلتقي البحر بالجبال لقضاء إجازة ساحرة حقًا. لا تفوت هذه الفرصة لتكوين ذكريات لا تُنسى تحت سماء مليئة بالنجوم.",
-    host: "Nature Friends",
-    price: "from 100,000",
-    image: "/activities/wadiqandil.jpeg",
-    features: [
-      "Camping",
-      "Walking",
-      "Beach",
-      "Campfire",
-      "Views",
-      "Fishing",
-      "Bird watching",
-    ],
-    startingPoint: "lattakia",
-    startingTime: "3 PM",
-  },
-  {
-    id: 3,
-    title: "Camping on the beach",
     location: "Armenian Bay, Lattakia",
     date: "Coming Soon!",
     level: "Easy",
@@ -82,7 +56,7 @@ export const activities = [
     startingTime: "Coming Soon!",
   },
   {
-    id: 4,
+    id: 3,
     title: "Zipline and Skybike",
     location: "Al Qadmus, Tartus",
     date: "Coming Soon!",
@@ -108,7 +82,7 @@ export const activities = [
     startingTime: "Coming Soon!",
   },
   {
-    id: 5,
+    id: 4,
     title: "Wadi al-Kahf Adventure Trip",
     location: "Al Qadmus, Tartus",
     date: "On Demand",
@@ -134,6 +108,32 @@ export const activities = [
     ],
     startingPoint: "inquiry required",
     startingTime: "inquiry required",
+  },
+  {
+    id: 5,
+    title: "Camping on the beach",
+    location: "Om-AlTuyoor, Lattakia",
+    date: "Expired",
+    level: "Easy",
+    headline: "Beach Camping at Om AlTuyoor",
+    description:
+      "Experience the charm of Om AlTuyoor Beach with a camping adventure from Thursday, June 6, to Friday, June 7. Marvel at the captivating scenery where the sea meets the mountains for a truly enchanting getaway. Don't miss this chance to create unforgettable memories under the starlit sky.",
+    arabicDescription:
+      "عش تجربة ساحل أم الطيور الساحرة في مغامرة تخييم رائعة تمتد من الخميس 6 يونيو إلى الجمعة 7 يونيو. انظر إلى المناظر الطبيعية الآسرة حيث يلتقي البحر بالجبال لقضاء إجازة ساحرة حقًا. لا تفوت هذه الفرصة لتكوين ذكريات لا تُنسى تحت سماء مليئة بالنجوم.",
+    host: "Nature Friends",
+    price: "from 100,000",
+    image: "/activities/wadiqandil.jpeg",
+    features: [
+      "Camping",
+      "Walking",
+      "Beach",
+      "Campfire",
+      "Views",
+      "Fishing",
+      "Bird watching",
+    ],
+    startingPoint: "lattakia",
+    startingTime: "3 PM",
   },
   {
     id: 6,
