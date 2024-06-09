@@ -46,19 +46,18 @@ export default function ListingInfo({
       </div>
       <hr />
       <p className=" text-2xl text-black font-semibold">Overview</p>
-
-      <div
-        className="
-text-lg font-light text-neutral-500"
-      >
-        {description}
-      </div>
       <div
         dir="rtl"
         className="
 text-lg font-light text-neutral-500"
       >
         {arabicDescription}
+      </div>
+      <div
+        className="
+text-lg font-light text-neutral-500"
+      >
+        {description}
       </div>
       <hr />
       <ListingsAmenities features={features} addedamenities={addedamenities} />
