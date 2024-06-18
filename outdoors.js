@@ -1,35 +1,6 @@
 export const activities = [
   {
     id: 1,
-    title: "Slunfeh Adventure Camp",
-    location: "Slunfeh, Lattakia",
-    date: "Tuesday, June 18, 2024",
-    level: "Easy",
-    headline:
-      "A Unique Experience to Explore History and Nature in the Heart of the Forest",
-    description:
-      "Join us for a three-day, two-night camp in Slunfeh's magical forests from June 18-20. Enjoy guided tours of ancient caves, visit the Monastery of the Virgin Mary and the Cave of Jesus Christ, learn fire-starting and rappelling skills, and explore with hands-on climbing demonstrations. Experience cozy bonfires and the serene beauty of the forest.",
-    arabicDescription:
-      "انضم إلينا في مخيم لمدة ثلاثة أيام وليلتين في غابات صلنفة الساحرة من 18 إلى 20 يونيو. استمتع بجولات تعريفية على الكهوف الأثرية، وزيارة دير السيدة العذراء ومغارة السيد يسوع المسيح، وتعلم مهارات إشعال النار والإنزال الجبلي، واستكشف الموقع بتجارب عملية لتسلق الأشجار. استمتع بالسهرة حول نار المخيم وجمال الطبيعة الهادئ في الغابة.",
-    host: "Syrian Association for Mountain Activities",
-    price: "from 175,000",
-    image: "/activities/slinfehcamping.jpeg",
-    features: [
-      "Camping",
-      "Walking",
-      "Campfire",
-      "Views",
-      "Wildlife",
-      "Bird watching",
-      "Forest",
-      "Social",
-      "History",
-    ],
-    startingPoint: "damascus, lattakia, homs",
-    startingTime: "9 AM",
-  },
-  {
-    id: 2,
     title: "Camping on the beach",
     location: "Armenian Bay, Lattakia",
     date: "Coming Soon!",
@@ -56,7 +27,7 @@ export const activities = [
     startingTime: "Coming Soon!",
   },
   {
-    id: 3,
+    id: 2,
     title: "Zipline and Skybike",
     location: "Al Qadmus, Tartus",
     date: "Coming Soon!",
@@ -80,6 +51,35 @@ export const activities = [
     ],
     startingPoint: "Coming Soon!",
     startingTime: "Coming Soon!",
+  },
+  {
+    id: 3,
+    title: "Slunfeh Adventure Camp",
+    location: "Slunfeh, Lattakia",
+    date: "Expired",
+    level: "Easy",
+    headline:
+      "A Unique Experience to Explore History and Nature in the Heart of the Forest",
+    description:
+      "Join us for a three-day, two-night camp in Slunfeh's magical forests from June 18-20. Enjoy guided tours of ancient caves, visit the Monastery of the Virgin Mary and the Cave of Jesus Christ, learn fire-starting and rappelling skills, and explore with hands-on climbing demonstrations. Experience cozy bonfires and the serene beauty of the forest.",
+    arabicDescription:
+      "انضم إلينا في مخيم لمدة ثلاثة أيام وليلتين في غابات صلنفة الساحرة من 18 إلى 20 يونيو. استمتع بجولات تعريفية على الكهوف الأثرية، وزيارة دير السيدة العذراء ومغارة السيد يسوع المسيح، وتعلم مهارات إشعال النار والإنزال الجبلي، واستكشف الموقع بتجارب عملية لتسلق الأشجار. استمتع بالسهرة حول نار المخيم وجمال الطبيعة الهادئ في الغابة.",
+    host: "Syrian Association for Mountain Activities",
+    price: "from 175,000",
+    image: "/activities/slinfehcamping.jpeg",
+    features: [
+      "Camping",
+      "Walking",
+      "Campfire",
+      "Views",
+      "Wildlife",
+      "Bird watching",
+      "Forest",
+      "Social",
+      "History",
+    ],
+    startingPoint: "damascus, lattakia, homs",
+    startingTime: "9 AM",
   },
   {
     id: 4,

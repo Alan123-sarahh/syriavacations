@@ -7,6 +7,7 @@ import { Swiper } from "../components/Swiper";
 import { GrCafeteria } from "react-icons/gr";
 import { IoTrailSignOutline } from "react-icons/io5";
 import { HiOutlineBuildingLibrary } from "react-icons/hi2";
+import { MdNightlife } from "react-icons/md";
 
 import { useState, useEffect } from "react";
 export default function Page() {
@@ -64,6 +65,15 @@ export default function Page() {
         >
           <HiOutlineBuildingLibrary className="w-5 h-5" />
           <p>Sites</p>
+        </button>
+        <button
+          onClick={() => filterAttractions("nightlife")}
+          className={`px-4 py-3 border rounded-full flex items-center justify-center gap-2 ${
+            selectedCategory === "nightlife" ? "bg-[#FF395C] text-white" : ""
+          }`}
+        >
+          <MdNightlife className="w-5 h-5" />
+          <p>nighlife</p>
         </button>
       </div>
       <div

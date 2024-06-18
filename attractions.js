@@ -224,4 +224,39 @@ export const attractions = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.1474980989165!2d36.31537102422679!3d33.52355054546171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1518e7d29aebd6bb%3A0x86939d7efb71c56c!2smad%20monkey%20pub!5e0!3m2!1sar!2snl!4v1717582769791!5m2!1sar!2snl",
     category: "foodanddrink",
   },
+  {
+    id: 12,
+    name: "Amnesia",
+    location: "Damascus",
+    shortDescription:
+      "A night club located in Al Rabweh, Damascus, known for offering amazing parties.",
+    description:
+      "Amnesia, located in Al Rabweh, Damascus, is a lively night club famous for its amazing parties. The club features a vibrant atmosphere with colorful lighting, a well-stocked bar, and an energetic vibe that attracts nightlife enthusiasts.",
+    arabicDescription:
+      "يُعد Amnesia، الذي يقع في منطقة الربوة بدمشق، نادٍ ليلي شهير بتقديمه لحفلات رائعة. يتميز النادي بأجواء حيوية مع إضاءة ملونة وبار مجهز بشكل جيد وأجواء حماسية تجذب عشاق السهر.",
+    type: "Night Club",
+    image: ["/attractions/nightlife/amnesia.jpg"],
+    tags: ["Night Club", "Nightlife", "Parties", "Events"],
+    mapId:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3325.8603867105476!2d36.24701262422635!3d33.53101534507275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1518dd43d6ac8ea5%3A0x42b33f8989ff3620!2sAmnesia%20Nightclub!5e0!3m2!1sar!2snl!4v1718539641447!5m2!1sar!2snl",
+    category: "nightlife",
+    phone: 930050103,
+  },
+  {
+    id: 13,
+    name: "Lobby bar",
+    location: "Homs",
+    shortDescription:
+      "A night club located in Wadi Al Nasara, Homs, known for its amazing parties and events.",
+    description:
+      "Lobby Bar, located in Wadi Al Nasara, Homs, is a renowned night club famous for its amazing parties and events. The bar offers a wide variety of drinks and hosts energetic events, making it a top destination for nightlife enthusiasts.",
+    arabicDescription:
+      "يُعد Lobby Bar، الذي يقع في وادي النصارى بحمص، نادٍ ليلي مشهور بحفلاته وأحداثه الرائعة. يقدم مجموعة واسعة من المشروبات ويستضيف فعاليات حماسية، مما يجعله وجهة مفضلة لعشاق السهر.",
+    type: "Night Club",
+    image: ["/attractions/nightlife/lobby.jpg"],
+    tags: ["Night Club", "Nightlife", "Parties", "Events"],
+    mapId:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3277.3522338214634!2d36.281381499999995!3d34.771907000000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1523b76843bfb487%3A0x2722c1ce1d3bb132!2sLobby%20bar!5e0!3m2!1sar!2snl!4v1718399871717!5m2!1sar!2snl",
+    category: "nightlife",
+  },
 ];

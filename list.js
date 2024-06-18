@@ -139,7 +139,7 @@ export const list = [
     id: 4,
     title: "Duplex Apartment in Shahin Resort",
     location: "Shahin Resort, Tartus",
-    price: "1900,000",
+    price: "from 3200,000",
     description:
       "Shahin Escape! Relax in this spacious duplex apartment (2 salons, 3 bedrooms) at Shahin Resort, Tartus. Unwind by the stunning beach or enjoy cafes nearby. Perfect for your Tartus getaway!",
     arabicDescription:
@@ -222,7 +222,7 @@ export const list = [
     id: 6,
     title: "Chalet in Golden Sands",
     location: "Golden Sands, Tartus",
-    price: "1700,000",
+    price: "1900,000",
     description:
       "Enjoy a dreamy summer at Golden Sands, Tartus! This cozy chalet has 2 bedrooms, a spacious salon, and 2 kitchens. Just steps from the beautiful beach, it's perfect for a relaxing getaway with loved ones. Your perfect beach holiday starts here!",
     arabicDescription:
@@ -352,7 +352,7 @@ export const list = [
     id: 9,
     title: "Chalet in Golden Sands",
     location: "Golden Sands, Tartus",
-    price: "1500,000",
+    price: "1700,000",
     description:
       "In Golden Sands, Tartus, this cozy chalet with two bedrooms and a welcoming living room invites you to enjoy the summer vibe. Close to the beach, it's your perfect retreat for relaxation and fun in Tartus.",
     arabicDescription:
@@ -439,7 +439,7 @@ export const list = [
     id: 11,
     title: "Chalet in Golden Sands",
     location: "Golden Sands, Tartus",
-    price: "1250,000",
+    price: "1800,000",
     description:
       "Golden Sands Charm! Relax in this 1-salon, 2-bedroom chalet with a balcony view of mountains & Golden Sands resort. Steps from the beach - your Tartus escape!",
     arabicDescription:
