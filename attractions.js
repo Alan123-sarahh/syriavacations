@@ -209,23 +209,6 @@ export const attractions = [
   },
   {
     id: 11,
-    name: "MadMonkey",
-    location: "Damascus",
-    shortDescription:
-      "A lively pub in Al Koussour, Damascus, offering drinks and an amazing night vibe with music and parties.",
-    description:
-      "MadMonkey, located in Al Koussour, Damascus, is a vibrant pub known for its energetic night vibe. Offering a wide range of drinks, it is a popular spot for enjoying music and parties. The atmosphere is electric, making it a favorite destination for nightlife enthusiasts.",
-    arabicDescription:
-      "يُعد MadMonkey، الذي يقع في منطقة القصور بدمشق، بارًا مشهورًا بحفلاته الليلية المفعمة بالحيوية. يقدم MadMonkey تشكيلة واسعة من المشروبات، وهو مكان شهير لقضاء وقت ممتع مع الموسيقى والحفلات. تسود أجواء حماسية المكان، مما يجعله وجهة مفضلة لعشاق السهر.",
-    type: "Pub",
-    image: ["/attractions/madmonkey/madmonkey.jpg"],
-    tags: ["Pub", "Nightlife", "Music", "Parties"],
-    mapId:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.1474980989165!2d36.31537102422679!3d33.52355054546171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1518e7d29aebd6bb%3A0x86939d7efb71c56c!2smad%20monkey%20pub!5e0!3m2!1sar!2snl!4v1717582769791!5m2!1sar!2snl",
-    category: "foodanddrink",
-  },
-  {
-    id: 12,
     name: "Amnesia",
     location: "Damascus",
     shortDescription:
@@ -241,6 +224,23 @@ export const attractions = [
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3325.8603867105476!2d36.24701262422635!3d33.53101534507275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1518dd43d6ac8ea5%3A0x42b33f8989ff3620!2sAmnesia%20Nightclub!5e0!3m2!1sar!2snl!4v1718539641447!5m2!1sar!2snl",
     category: "nightlife",
     phone: 930050103,
+  },
+  {
+    id: 12,
+    name: "MadMonkey",
+    location: "Damascus",
+    shortDescription:
+      "A lively pub in Al Koussour, Damascus, offering drinks and an amazing night vibe with music and parties.",
+    description:
+      "MadMonkey, located in Al Koussour, Damascus, is a vibrant pub known for its energetic night vibe. Offering a wide range of drinks, it is a popular spot for enjoying music and parties. The atmosphere is electric, making it a favorite destination for nightlife enthusiasts.",
+    arabicDescription:
+      "يُعد MadMonkey، الذي يقع في منطقة القصور بدمشق، بارًا مشهورًا بحفلاته الليلية المفعمة بالحيوية. يقدم MadMonkey تشكيلة واسعة من المشروبات، وهو مكان شهير لقضاء وقت ممتع مع الموسيقى والحفلات. تسود أجواء حماسية المكان، مما يجعله وجهة مفضلة لعشاق السهر.",
+    type: "Pub",
+    image: ["/attractions/madmonkey/madmonkey.jpg"],
+    tags: ["Pub", "Nightlife", "Music", "Parties"],
+    mapId:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.1474980989165!2d36.31537102422679!3d33.52355054546171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1518e7d29aebd6bb%3A0x86939d7efb71c56c!2smad%20monkey%20pub!5e0!3m2!1sar!2snl!4v1717582769791!5m2!1sar!2snl",
+    category: "nightlife",
   },
   {
     id: 13,
