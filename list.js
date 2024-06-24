@@ -274,7 +274,7 @@ export const list = [
     id: 7,
     title: "Chalet in Golden Sands",
     location: "Golden Sands, Tartus",
-    price: "1900,000",
+    price: "from 1650,000",
     description:
       "Enjoy a dreamy summer at Golden Sands, Tartus! This cozy chalet has 2 bedrooms, a spacious salon, and 2 kitchens. Just steps from the beautiful beach, it's perfect for a relaxing getaway with loved ones. Your perfect beach holiday starts here!",
     arabicDescription:
@@ -491,7 +491,7 @@ export const list = [
     id: 12,
     title: "Chalet in Golden Sands",
     location: "Golden Sands, Tartus",
-    price: "1800,000",
+    price: "from 1650,000",
     description:
       "Golden Sands Charm! Relax in this 1-salon, 2-bedroom chalet with a balcony view of mountains & Golden Sands resort. Steps from the beach - your Tartus escape!",
     arabicDescription:
