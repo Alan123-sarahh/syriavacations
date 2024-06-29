@@ -1,9 +1,62 @@
 export const activities = [
   {
     id: 1,
+    title: "Trekking the Four Seasons Valley",
+    location: "Al Haffah, Lattakia",
+    date: "Friday, July 5, 2024",
+    level: "Moderate",
+    headline: "Exhilarating Aquatic Adventure Awaits",
+    description:
+      "Immerse yourself in the Four Seasons Valley, an exhilarating aquatic hike through narrow rocky gorges, deep clear pools, and shaded paths surrounded by towering trees and hanging rocks. Experience an unforgettable adventure in nature's hidden paradise, reveling in its enchanting details.",
+    arabicDescription:
+      "انغمس في وادي الفصول الأربعة، حيث يعبر المسير البرمائي المثير عبر خوانق صخرية ضيقة وجداول نقية عميقة ومسارات ظليلة محاطة بالأشجار العالية والصخور المعلقة. عش مغامرة لا تُنسى في جنة الطبيعة المخفية، واستمتع بتفاصيلها الساحرة.",
+    host: "Nature Friends",
+    price: "90,000",
+    image: "/activities/qasistrekking.jpeg",
+    features: [
+      "Hikking",
+      "River",
+      "Views",
+      "Swimming",
+      "Trekking",
+      "Wildlife",
+      "Social",
+    ],
+    startingPoint: "lattakia",
+    startingTime: "9:30 AM",
+  },
+  {
+    id: 2,
+    title: "Four Seasons Valley Adventure",
+    location: "Al Haffah, Lattakia",
+    date: "Friday, July 12, 2024",
+    level: "Moderate",
+    headline:
+      "Dive into Deep Gorges and Refreshing Pools from Spring to Winter",
+    description:
+      "Explore deep rocky gorges and pristine freshwater pools in the Four Seasons Valley, where terrain transitions from spring to winter over a 30-meter stretch of cool, invigorating waters. Enjoy an unforgettable adventure with optional swimming and cliff diving into a unique pool, or opt for a thrilling mountain descent of 10 meters into a water pool below.",
+    arabicDescription:
+      "استكشف خوانق صخرية عميقة وبرك مياه عذبة في وادي الفصول الأربعة، حيث تتنوع التضاريس من الربيع إلى الشتاء على مسافة 30 مترًا من مياه باردة ومنعشة. تجربة مغامرة لا تُنسى مع السباحة والقفز الحر اختياريًا في بركة فريدة، وإمكانية النزول بالمعدات الخاصة عبر جرف بارتفاع 10 أمتار للوصول إلى بركة المياه في الأسفل.",
+    host: "Syrian Association for Mountain Activities",
+    price: "from 90,000",
+    image: "/activities/fourseasonvalley.jpeg",
+    features: [
+      "Hikking",
+      "River",
+      "Views",
+      "Swimming",
+      "Trekking",
+      "Wildlife",
+      "Social",
+    ],
+    startingPoint: "lattakia, homs, damascus",
+    startingTime: "9 AM",
+  },
+  {
+    id: 3,
     title: "Camping on the Beach",
     location: "Armenian Bay, Lattakia",
-    date: "Thursday, June 27, 2024",
+    date: "Expired",
     level: "Easy",
     headline: "Campfire Stories & Starlight Skies: A Weekend Getaway",
     description:
@@ -27,7 +80,7 @@ export const activities = [
     startingTime: "6 AM from damascus",
   },
   {
-    id: 2,
+    id: 4,
     title: "Zipline and Skybike",
     location: "Al Qadmus, Tartus",
     date: "Coming Soon!",
@@ -53,7 +106,7 @@ export const activities = [
     startingTime: "Coming Soon!",
   },
   {
-    id: 3,
+    id: 5,
     title: "Slunfeh Adventure Camp",
     location: "Slunfeh, Lattakia",
     date: "Expired",
@@ -82,7 +135,7 @@ export const activities = [
     startingTime: "9 AM",
   },
   {
-    id: 4,
+    id: 6,
     title: "Wadi al-Kahf Adventure Trip",
     location: "Al Qadmus, Tartus",
     date: "On Demand",
@@ -110,7 +163,7 @@ export const activities = [
     startingTime: "inquiry required",
   },
   {
-    id: 5,
+    id: 7,
     title: "Camping on the beach",
     location: "Om-AlTuyoor, Lattakia",
     date: "Expired",
@@ -136,7 +189,7 @@ export const activities = [
     startingTime: "3 PM",
   },
   {
-    id: 6,
+    id: 8,
     title: "Qalat Al Kahf Camp & Adventure",
     location: "Al Qadmus, Tartus",
     date: "Expired",
@@ -166,7 +219,7 @@ export const activities = [
     startingTime: "inquiry required",
   },
   {
-    id: 7,
+    id: 9,
     title: "Farzla River Trekking Adventure",
     location: "Paradise Valley, Lattakia",
     date: "Expired",
@@ -194,7 +247,7 @@ export const activities = [
     startingTime: "9 AM from lattakia",
   },
   {
-    id: 8,
+    id: 10,
     title: "Camping Near the Basqin River",
     location: "Basqin River, Lattakia",
     date: "Expired",
@@ -220,7 +273,7 @@ export const activities = [
     startingTime: "7:15 AM from damascus",
   },
   {
-    id: 9,
+    id: 11,
     title: "Trip to Bakramah, Jabal al-Malek & Wadi al-Muluk",
     location: "Lattakia",
     date: "Expired",
