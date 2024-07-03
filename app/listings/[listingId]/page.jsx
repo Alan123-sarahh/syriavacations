@@ -39,6 +39,7 @@ const page = ({ params: { listingId } }) => {
             addedamenities={list[listingId - 1]?.addedamenities}
             mapId={list[listingId - 1]?.mapId}
             rules={list[listingId - 1]?.rules}
+            reviews={list[listingId - 1]?.reviews}
           />
           <div
             className="

@@ -1,5 +1,6 @@
 import React from "react";
 import ListingsAmenities from "./ListingsAmenities";
+import Reviews from "../Reviews";
 
 export default function ListingInfo({
   hostedBy,
@@ -12,6 +13,7 @@ export default function ListingInfo({
   addedamenities,
   mapId,
   rules,
+  reviews,
 }) {
   return (
     <div className="col-span-4 flex flex-col gap-8">
@@ -95,9 +97,20 @@ text-lg font-light text-neutral-500"
         </p>
       </div>
       <hr />
-      <p className="text-2xl text-black font-semibold mb-20">
-        No reviews (yet)
-      </p>
+      {reviews ? (
+        <>
+          <p className="text-2xl text-black font-semibold">Reviews</p>
+          <div className="mb-20">
+            {reviews.map((review, index) => (
+              <Reviews key={index} review={review} />
+            ))}
+          </div>
+        </>
+      ) : (
+        <p className="text-2xl text-black font-semibold mb-20">
+          No reviews (yet)
+        </p>
+      )}
     </div>
   );
 }

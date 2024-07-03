@@ -46,6 +46,14 @@ export const list = [
       checkIn: "anytime",
       checkOut: "11:00 AM",
     },
+    reviews: [
+      {
+        name: "hadi",
+        date: "june 2024",
+        text: ".شاليه جميل في الجبال! أحببنا الاستيقاظ على الهواء النقي والمسارات الطبيعية الرائعة بالخارج. أنصح به بشدة لعشاق الطبيعة",
+        rating: 5,
+      },
+    ],
   },
   {
     id: 2,
@@ -96,6 +104,20 @@ export const list = [
       checkIn: "anytime",
       checkOut: "11:00 AM",
     },
+    reviews: [
+      {
+        name: "hala",
+        date: "june 2024",
+        text: "Beautiful and comfortable place, very nice and private garden and pool, Highly recommended!",
+        rating: 5,
+      },
+      {
+        name: "nader",
+        date: "may 2024",
+        text: ".فيلا فخمة بحدائق جميلة ومسبح خاص. استمتعنا كثيراً",
+        rating: 4,
+      },
+    ],
   },
   {
     id: 3,
@@ -140,6 +162,14 @@ export const list = [
       checkIn: "anytime",
       checkOut: "11:00 AM",
     },
+    reviews: [
+      {
+        name: "sarah",
+        date: "june 2024",
+        text: "The apartment was cozy with stunning sea views. Just a short walk to the beach and local cafes. Loved every minute.",
+        rating: 5,
+      },
+    ],
   },
   {
     id: 4,
@@ -182,6 +212,14 @@ export const list = [
       checkIn: "anytime",
       checkOut: "11:00 AM",
     },
+    reviews: [
+      {
+        name: "feras",
+        date: "june 2024",
+        text: ".إقامة رائعة، استمتعنا بالمناظر الطبيعية والهواء النقي",
+        rating: 4,
+      },
+    ],
   },
   {
     id: 5,

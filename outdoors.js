@@ -27,6 +27,34 @@ export const activities = [
   },
   {
     id: 2,
+    title: "Wadi al-Kahf Adventure Trip",
+    location: "Al Qadmus, Tartus",
+    date: "Wednesday, July 10, 2024",
+    level: "Easy",
+    headline:
+      "Explore Syria's Wadi al-Kahf: Hike, swim & discover hidden beauty!",
+    description:
+      "Wadi Al-Kahf in Tartus is an ideal destination for nature and adventure lovers. The hike begins with a water trek, including a breakfast break and coffee made over a wood fire, followed by a climb through the bushes to the castle hill. Visitors can explore the castle ruins and enjoy a meditation session with hot tea before returning at sunset. The experience combines swimming and exploring the castle.",
+    arabicDescription:
+      "وادي الكهف الشمالي في طرطوس هو وجهة مثالية لمحبي الطبيعة والمغامرة. يبدأ المسير بتوغل برمائي، يتخلله استراحة فطور وقهوة على الحطب، ثم صعود بين الأدغال إلى تلة القلعة. يُتاح التجول على أطلال القلعة وجلسة تأمل مع الشاي الساخن قبل العودة مع غياب الشمس. تجربة تجمع بين السباحة واستكشاف القلعة.",
+    host: "Nature Friends",
+    price: "130,000",
+    image: "/activities/alkahf.jpg",
+    features: [
+      "Trekking",
+      "Walking",
+      "Historical Experience",
+      "River",
+      "Views",
+      "Social",
+      "Wildlife",
+      "Bird watching",
+    ],
+    startingPoint: "golden sands, tartus",
+    startingTime: "9:30 AM",
+  },
+  {
+    id: 3,
     title: "Four Seasons Valley Adventure",
     location: "Al Haffah, Lattakia",
     date: "Friday, July 12, 2024",
@@ -53,16 +81,16 @@ export const activities = [
     startingTime: "9 AM",
   },
   {
-    id: 3,
+    id: 4,
     title: "Camping on the Beach",
     location: "Armenian Bay, Lattakia",
-    date: "Expired",
+    date: "Thursday, July 18, 2024",
     level: "Easy",
     headline: "Campfire Stories & Starlight Skies: A Weekend Getaway",
     description:
-      "Join us on Thursday, June 27, for a two-night camping adventure on the most beautiful and pristine beaches of our coast. Start with an extended boat trip from Al-Basit Harbor, passing Basit and Badrousia beaches to a secluded bay. Enjoy unique rock formations, social campfires, swimming in clear waters, and a 2 km hike to Samra Village to enjoy the mountains and get supplies. Experience a magical camping night at the crescent-shaped Armenian Bay.",
+      "Join us on Thursday, July 18, for a two-night camping adventure on the most beautiful and pristine beaches of our coast. Start with an extended boat trip from Al-Basit Harbor, passing Basit and Badrousia beaches to a secluded bay. Enjoy unique rock formations, social campfires, swimming in clear waters, and a 2 km hike to Samra Village to enjoy the mountains and get supplies. Experience a magical camping night at the crescent-shaped Armenian Bay.",
     arabicDescription:
-      "انضموا إلينا يوم الخميس ٢٧ حزيران في مغامرة تخييم لمدة ليلتين على أجمل وأصفى شواطئ ساحلنا. نبدأ برحلة بحرية من ميناء البسيط مروراً بشواطئ البسيط والبدروسية وصولاً إلى خليج معزول. استمتعوا بتشكيلات صخرية فريدة، سهرة جماعية حول النار، السباحة في المياه النقية، ومسير 2 كم إلى قرية السمرا للاستمتاع بالجبال والتزود بالمؤونة. تجربة تخييم ساحرة تحت النجوم في خليج الأرمن الهلالي.",
+      "انضموا إلينا يوم الخميس ١٨ تموز في مغامرة تخييم لمدة ليلتين على أجمل وأصفى شواطئ ساحلنا. نبدأ برحلة بحرية من ميناء البسيط مروراً بشواطئ البسيط والبدروسية وصولاً إلى خليج معزول. استمتعوا بتشكيلات صخرية فريدة، سهرة جماعية حول النار، السباحة في المياه النقية، ومسير 2 كم إلى قرية السمرا للاستمتاع بالجبال والتزود بالمؤونة. تجربة تخييم ساحرة تحت النجوم في خليج الأرمن الهلالي.",
     host: "Nature Friends",
     price: "from 250,000",
     image: "/activities/campingbybeach.jpeg",
@@ -80,7 +108,7 @@ export const activities = [
     startingTime: "6 AM from damascus",
   },
   {
-    id: 4,
+    id: 5,
     title: "Zipline and Skybike",
     location: "Al Qadmus, Tartus",
     date: "Coming Soon!",
@@ -106,7 +134,7 @@ export const activities = [
     startingTime: "Coming Soon!",
   },
   {
-    id: 5,
+    id: 6,
     title: "Slunfeh Adventure Camp",
     location: "Slunfeh, Lattakia",
     date: "Expired",
@@ -133,34 +161,6 @@ export const activities = [
     ],
     startingPoint: "damascus, lattakia, homs",
     startingTime: "9 AM",
-  },
-  {
-    id: 6,
-    title: "Wadi al-Kahf Adventure Trip",
-    location: "Al Qadmus, Tartus",
-    date: "On Demand",
-    level: "Moderate",
-    headline:
-      "Explore Syria's Wadi al-Kahf: Hike, swim & discover hidden beauty!",
-    description:
-      "The Northern Cave Valley in Tartous Governorate is an ideal destination for nature and adventure lovers, as it provides a wonderful path that combines swimming in natural rock pools, rock climbing, exploring a historical castle, and enjoying stunning panoramic views, The trail begins at the Hamam Waasil River and heads north along a valley rich in captivating details, where you will encounter distinctive rock pools.",
-    arabicDescription:
-      "يُعدّ وادي الكهف الشمالي في محافظة طرطوس وجهة مثالية لمحبي الطبيعة والمغامرة، حيث يوفر مسارًا رائعًا يجمع بين السباحة في أحواض صخرية طبيعية، وتسلق الصخور، واستكشاف قلعة تاريخية، والاستمتاع بإطلالات بانورامية خلابة, يبدأ المسار من نهر حمام واصل، ويتجه شمالًا على طول وادي غني بالتفاصيل الساحرة، حيث ستصادفون أحواض السباحة الصخرية المميزة.",
-    host: "Nature Friends",
-    price: "--,--",
-    image: "/activities/cave2.jpg",
-    features: [
-      "Trekking",
-      "Walking",
-      "Historical Experience",
-      "River",
-      "Views",
-      "Social",
-      "Wildlife",
-      "Bird watching",
-    ],
-    startingPoint: "inquiry required",
-    startingTime: "inquiry required",
   },
   {
     id: 7,
