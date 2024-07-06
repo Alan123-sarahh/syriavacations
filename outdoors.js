@@ -1,32 +1,6 @@
 export const activities = [
   {
     id: 1,
-    title: "Trekking the Four Seasons Valley",
-    location: "Al Haffah, Lattakia",
-    date: "Friday, July 5, 2024",
-    level: "Moderate",
-    headline: "Exhilarating Aquatic Adventure Awaits",
-    description:
-      "Immerse yourself in the Four Seasons Valley, an exhilarating aquatic hike through narrow rocky gorges, deep clear pools, and shaded paths surrounded by towering trees and hanging rocks. Experience an unforgettable adventure in nature's hidden paradise, reveling in its enchanting details.",
-    arabicDescription:
-      "انغمس في وادي الفصول الأربعة، حيث يعبر المسير البرمائي المثير عبر خوانق صخرية ضيقة وجداول نقية عميقة ومسارات ظليلة محاطة بالأشجار العالية والصخور المعلقة. عش مغامرة لا تُنسى في جنة الطبيعة المخفية، واستمتع بتفاصيلها الساحرة.",
-    host: "Nature Friends",
-    price: "90,000",
-    image: "/activities/qasistrekking.jpeg",
-    features: [
-      "Hikking",
-      "River",
-      "Views",
-      "Swimming",
-      "Trekking",
-      "Wildlife",
-      "Social",
-    ],
-    startingPoint: "lattakia",
-    startingTime: "9:30 AM",
-  },
-  {
-    id: 2,
     title: "Wadi al-Kahf Adventure Trip",
     location: "Al Qadmus, Tartus",
     date: "Wednesday, July 10, 2024",
@@ -54,7 +28,7 @@ export const activities = [
     startingTime: "9:30 AM",
   },
   {
-    id: 3,
+    id: 2,
     title: "Four Seasons Valley Adventure",
     location: "Al Haffah, Lattakia",
     date: "Friday, July 12, 2024",
@@ -81,7 +55,7 @@ export const activities = [
     startingTime: "9 AM",
   },
   {
-    id: 4,
+    id: 3,
     title: "Camping on the Beach",
     location: "Armenian Bay, Lattakia",
     date: "Thursday, July 18, 2024",
@@ -108,7 +82,7 @@ export const activities = [
     startingTime: "6 AM from damascus",
   },
   {
-    id: 5,
+    id: 4,
     title: "Zipline and Skybike",
     location: "Al Qadmus, Tartus",
     date: "Coming Soon!",
@@ -132,6 +106,32 @@ export const activities = [
     ],
     startingPoint: "Coming Soon!",
     startingTime: "Coming Soon!",
+  },
+  {
+    id: 5,
+    title: "Trekking the Four Seasons Valley",
+    location: "Al Haffah, Lattakia",
+    date: "Expired",
+    level: "Moderate",
+    headline: "Exhilarating Aquatic Adventure Awaits",
+    description:
+      "Immerse yourself in the Four Seasons Valley, an exhilarating aquatic hike through narrow rocky gorges, deep clear pools, and shaded paths surrounded by towering trees and hanging rocks. Experience an unforgettable adventure in nature's hidden paradise, reveling in its enchanting details.",
+    arabicDescription:
+      "انغمس في وادي الفصول الأربعة، حيث يعبر المسير البرمائي المثير عبر خوانق صخرية ضيقة وجداول نقية عميقة ومسارات ظليلة محاطة بالأشجار العالية والصخور المعلقة. عش مغامرة لا تُنسى في جنة الطبيعة المخفية، واستمتع بتفاصيلها الساحرة.",
+    host: "Nature Friends",
+    price: "90,000",
+    image: "/activities/qasistrekking.jpeg",
+    features: [
+      "Hikking",
+      "River",
+      "Views",
+      "Swimming",
+      "Trekking",
+      "Wildlife",
+      "Social",
+    ],
+    startingPoint: "lattakia",
+    startingTime: "9:30 AM",
   },
   {
     id: 6,
