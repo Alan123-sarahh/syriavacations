@@ -1,61 +1,6 @@
 export const activities = [
   {
     id: 1,
-    title: "Wadi al-Kahf Adventure Trip",
-    location: "Al Qadmus, Tartus",
-    date: "Wednesday, July 10, 2024",
-    level: "Easy",
-    headline:
-      "Explore Syria's Wadi al-Kahf: Hike, swim & discover hidden beauty!",
-    description:
-      "Wadi Al-Kahf in Tartus is an ideal destination for nature and adventure lovers. The hike begins with a water trek, including a breakfast break and coffee made over a wood fire, followed by a climb through the bushes to the castle hill. Visitors can explore the castle ruins and enjoy a meditation session with hot tea before returning at sunset. The experience combines swimming and exploring the castle.",
-    arabicDescription:
-      "وادي الكهف الشمالي في طرطوس هو وجهة مثالية لمحبي الطبيعة والمغامرة. يبدأ المسير بتوغل برمائي، يتخلله استراحة فطور وقهوة على الحطب، ثم صعود بين الأدغال إلى تلة القلعة. يُتاح التجول على أطلال القلعة وجلسة تأمل مع الشاي الساخن قبل العودة مع غياب الشمس. تجربة تجمع بين السباحة واستكشاف القلعة.",
-    host: "Nature Friends",
-    price: "130,000",
-    image: "/activities/alkahf.jpg",
-    features: [
-      "Trekking",
-      "Walking",
-      "Historical Experience",
-      "River",
-      "Views",
-      "Social",
-      "Wildlife",
-      "Bird watching",
-    ],
-    startingPoint: "golden sands, tartus",
-    startingTime: "9:30 AM",
-  },
-  {
-    id: 2,
-    title: "Four Seasons Valley Adventure",
-    location: "Al Haffah, Lattakia",
-    date: "Friday, July 12, 2024",
-    level: "Moderate",
-    headline:
-      "Dive into Deep Gorges and Refreshing Pools from Spring to Winter",
-    description:
-      "Explore deep rocky gorges and pristine freshwater pools in the Four Seasons Valley, where terrain transitions from spring to winter over a 30-meter stretch of cool, invigorating waters. Enjoy an unforgettable adventure with optional swimming and cliff diving into a unique pool, or opt for a thrilling mountain descent of 10 meters into a water pool below.",
-    arabicDescription:
-      "استكشف خوانق صخرية عميقة وبرك مياه عذبة في وادي الفصول الأربعة، حيث تتنوع التضاريس من الربيع إلى الشتاء على مسافة 30 مترًا من مياه باردة ومنعشة. تجربة مغامرة لا تُنسى مع السباحة والقفز الحر اختياريًا في بركة فريدة، وإمكانية النزول بالمعدات الخاصة عبر جرف بارتفاع 10 أمتار للوصول إلى بركة المياه في الأسفل.",
-    host: "Syrian Association for Mountain Activities",
-    price: "from 90,000",
-    image: "/activities/fourseasonvalley.jpeg",
-    features: [
-      "Hikking",
-      "River",
-      "Views",
-      "Swimming",
-      "Trekking",
-      "Wildlife",
-      "Social",
-    ],
-    startingPoint: "lattakia, homs, damascus",
-    startingTime: "9 AM",
-  },
-  {
-    id: 3,
     title: "Camping on the Beach",
     location: "Armenian Bay, Lattakia",
     date: "Thursday, July 18, 2024",
@@ -82,7 +27,7 @@ export const activities = [
     startingTime: "6 AM from damascus",
   },
   {
-    id: 4,
+    id: 2,
     title: "Zipline and Skybike",
     location: "Al Qadmus, Tartus",
     date: "Coming Soon!",
@@ -106,6 +51,61 @@ export const activities = [
     ],
     startingPoint: "Coming Soon!",
     startingTime: "Coming Soon!",
+  },
+  {
+    id: 3,
+    title: "Wadi al-Kahf Adventure Trip",
+    location: "Al Qadmus, Tartus",
+    date: "Expired",
+    level: "Easy",
+    headline:
+      "Explore Syria's Wadi al-Kahf: Hike, swim & discover hidden beauty!",
+    description:
+      "Wadi Al-Kahf in Tartus is an ideal destination for nature and adventure lovers. The hike begins with a water trek, including a breakfast break and coffee made over a wood fire, followed by a climb through the bushes to the castle hill. Visitors can explore the castle ruins and enjoy a meditation session with hot tea before returning at sunset. The experience combines swimming and exploring the castle.",
+    arabicDescription:
+      "وادي الكهف الشمالي في طرطوس هو وجهة مثالية لمحبي الطبيعة والمغامرة. يبدأ المسير بتوغل برمائي، يتخلله استراحة فطور وقهوة على الحطب، ثم صعود بين الأدغال إلى تلة القلعة. يُتاح التجول على أطلال القلعة وجلسة تأمل مع الشاي الساخن قبل العودة مع غياب الشمس. تجربة تجمع بين السباحة واستكشاف القلعة.",
+    host: "Nature Friends",
+    price: "130,000",
+    image: "/activities/alkahf.jpg",
+    features: [
+      "Trekking",
+      "Walking",
+      "Historical Experience",
+      "River",
+      "Views",
+      "Social",
+      "Wildlife",
+      "Bird watching",
+    ],
+    startingPoint: "golden sands, tartus",
+    startingTime: "9:30 AM",
+  },
+  {
+    id: 4,
+    title: "Four Seasons Valley Adventure",
+    location: "Al Haffah, Lattakia",
+    date: "Expired",
+    level: "Moderate",
+    headline:
+      "Dive into Deep Gorges and Refreshing Pools from Spring to Winter",
+    description:
+      "Explore deep rocky gorges and pristine freshwater pools in the Four Seasons Valley, where terrain transitions from spring to winter over a 30-meter stretch of cool, invigorating waters. Enjoy an unforgettable adventure with optional swimming and cliff diving into a unique pool, or opt for a thrilling mountain descent of 10 meters into a water pool below.",
+    arabicDescription:
+      "استكشف خوانق صخرية عميقة وبرك مياه عذبة في وادي الفصول الأربعة، حيث تتنوع التضاريس من الربيع إلى الشتاء على مسافة 30 مترًا من مياه باردة ومنعشة. تجربة مغامرة لا تُنسى مع السباحة والقفز الحر اختياريًا في بركة فريدة، وإمكانية النزول بالمعدات الخاصة عبر جرف بارتفاع 10 أمتار للوصول إلى بركة المياه في الأسفل.",
+    host: "Syrian Association for Mountain Activities",
+    price: "from 90,000",
+    image: "/activities/fourseasonvalley.jpeg",
+    features: [
+      "Hikking",
+      "River",
+      "Views",
+      "Swimming",
+      "Trekking",
+      "Wildlife",
+      "Social",
+    ],
+    startingPoint: "lattakia, homs, damascus",
+    startingTime: "9 AM",
   },
   {
     id: 5,
