@@ -3,7 +3,7 @@ export const activities = [
     id: 1,
     title: "Camping on the Beach",
     location: "Armenian Bay, Lattakia",
-    date: "Thursday, July 18, 2024",
+    date: "Expired",
     level: "Easy",
     headline: "Campfire Stories & Starlight Skies: A Weekend Getaway",
     description:
